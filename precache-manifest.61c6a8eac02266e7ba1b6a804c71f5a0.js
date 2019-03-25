@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/textbookFriends.a6c80df6.PNG"
   },
   {
-    "revision": "67a619cc22993aabc668",
+    "revision": "659e48fe8500d702b53b",
     "url": "/portfolio/static/css/main.e3ed95ad.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/seattle.556d4c4d.png"
   },
   {
-    "revision": "67a619cc22993aabc668",
-    "url": "/portfolio/static/js/main.c6f00359.chunk.js"
+    "revision": "659e48fe8500d702b53b",
+    "url": "/portfolio/static/js/main.10efd3a7.chunk.js"
   },
   {
     "revision": "85affbe9d2e868bd7d23ac7912edd506",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "0f01fc28db2c4161e34bccd20d87314c",
+    "revision": "b6342fbaac02ebdb9026143ae41b7117",
     "url": "/portfolio/index.html"
   }
 ];
