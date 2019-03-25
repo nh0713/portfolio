@@ -27,8 +27,8 @@ html, body {
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
-  /* display: table;
-  position: relative; */
+    /* display: table;
+    position: relative; */
 }
 
 .rowContainer {
