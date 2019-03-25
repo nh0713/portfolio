@@ -16,10 +16,10 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route path='/' component={HomePage} exact />
-          <Route path='/AboutMe' component={AboutMe} exact />
-          <Route path='/Work' component={Work} exact />
-          <Route path='/Contact' component={Contact} exact />
+          <Route path='/portfolio/' component={HomePage} exact />
+          <Route path='/portfolio/AboutMe' component={AboutMe} exact />
+          <Route path='/portfolio/Work' component={Work} exact />
+          <Route path='/portfolio/Contact' component={Contact} exact />
         </Switch>
       </Router>
       // <div className="App">
