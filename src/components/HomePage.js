@@ -10,8 +10,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import Carousel from 'react-bootstrap/Carousel';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+
+import CarouselHomePage from './CarouselHomePage.js'
 
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
@@ -28,9 +31,7 @@ class HomePage extends Component {
                         <Link to='/AboutMe'>
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <Link to='/Work'>
-                            <li><a href="">Work</a></li>
-                        </Link>
+                        <li><AnchorLink href="#work">Work</AnchorLink></li>
                         <li><AnchorLink href="#contact">Contact</AnchorLink></li>
                     </ul>
                 </header>
@@ -112,6 +113,7 @@ class HomePage extends Component {
                         </Col>
                     </Row>
                 </Container>
+                <CarouselHomePage />
                 <Container fluid id='contact' className='contact'>
                     <h2>
                         Contact Me

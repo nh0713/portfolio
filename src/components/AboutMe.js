@@ -25,12 +25,8 @@ class About extends Component {
                         <Link to='/AboutMe'>
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <Link to='/Work'>
-                            <li><a href="">Work</a></li>
-                        </Link>
-                        {/* <Link to='/Contact'> */}
-                            <li><a href="/#contact">Contact</a></li>
-                        {/* </Link>                     */}
+                        <li><a href="/#work">Work</a></li>
+                        <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </header>
             </div>
