@@ -10,20 +10,18 @@ import AboutMe from './components/AboutMe'
 class App extends Component {
   render() {
     return (
-      // <Router>
-      //   <Switch>
-      //     <Route path='/portfolio/' component={HomePage} exact />
-      //     <Route path='/portfolio/AboutMe' component={AboutMe} exact />
-      //     <Route path='/portfolio/Work' component={Work} exact />
-      //     <Route path='/portfolio/Contact' component={Contact} exact />
-      //   </Switch>
-      // </Router>
       <Router>
-      <Switch>
-        <Route path='/' component={HomePage} exact />
-        <Route path='/AboutMe' component={AboutMe} exact />
-      </Switch>
-    </Router>
+        <Switch>
+          <Route path='/portfolio/' component={HomePage} exact />
+          <Route path='/portfolio/AboutMe' component={AboutMe} exact />
+        </Switch>
+      </Router>
+    //   <Router>
+    //   <Switch>
+    //     <Route path='/' component={HomePage} exact />
+    //     <Route path='/AboutMe' component={AboutMe} exact />
+    //   </Switch>
+    // </Router>
       // <div className="App">
       //   <header className="App-header">
       //     <HomePage />

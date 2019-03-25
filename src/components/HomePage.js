@@ -10,7 +10,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Carousel from 'react-bootstrap/Carousel';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Link } from 'react-router-dom'
 
@@ -28,7 +27,8 @@ class HomePage extends Component {
                     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                     <ul class="menu">
                         <li><AnchorLink href="#home">Home</AnchorLink></li>
-                        <Link to='/AboutMe'>
+                        <Link to='/portfolio/AboutMe'>
+                        {/* <Link to='/AboutMe'> */}
                             <li><a href="">About Me</a></li>
                         </Link>
                         <li><AnchorLink href="#work">Work</AnchorLink></li>
