@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import textbookFriends from '../images/textbookFriends.PNG';
+import textbookFriends from '../images/textbookFriends-min.PNG';
 import grailz from '../images/grailz.png';
 import attFriends from '../images/attFriends.png';
 import shredderz from '../images/shredderz.png';
