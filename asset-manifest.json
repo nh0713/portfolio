@@ -1,5 +1,5 @@
 {
-  "main.css": "/portfolio/static/css/main.e3ed95ad.chunk.css",
+  "main.css": "/portfolio/static/css/main.5375c990.chunk.css",
   "main.js": "/portfolio/static/js/main.10efd3a7.chunk.js",
   "main.js.map": "/portfolio/static/js/main.10efd3a7.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
@@ -7,13 +7,13 @@
   "static/js/2.b1e2aec1.chunk.js": "/portfolio/static/js/2.b1e2aec1.chunk.js",
   "static/js/2.b1e2aec1.chunk.js.map": "/portfolio/static/js/2.b1e2aec1.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.61c6a8eac02266e7ba1b6a804c71f5a0.js": "/portfolio/precache-manifest.61c6a8eac02266e7ba1b6a804c71f5a0.js",
+  "precache-manifest.ca14e1c771e6d9d8bc6932e9628141b1.js": "/portfolio/precache-manifest.ca14e1c771e6d9d8bc6932e9628141b1.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.e3ed95ad.chunk.css.map": "/portfolio/static/css/main.e3ed95ad.chunk.css.map",
+  "static/css/main.5375c990.chunk.css.map": "/portfolio/static/css/main.5375c990.chunk.css.map",
   "static/media/attFriends.png": "/portfolio/static/media/attFriends.16cee1c2.png",
   "static/media/grailz.png": "/portfolio/static/media/grailz.85affbe9.png",
   "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg",
-  "static/media/App.css": "/portfolio/static/media/seattle.556d4c4d.png",
+  "static/media/App.css": "/portfolio/static/media/seattle-min.462bb310.png",
   "static/media/shredderz.png": "/portfolio/static/media/shredderz.bc1c262e.png",
   "static/media/textbookFriends.PNG": "/portfolio/static/media/textbookFriends.a6c80df6.PNG"
 }
