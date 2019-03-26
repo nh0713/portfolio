@@ -5,6 +5,7 @@ import textbookFriends from '../images/textbookFriends-min.PNG';
 import grailz from '../images/grailz.png';
 import attFriends from '../images/attFriends.png';
 import shredderz from '../images/shredderz.png';
+import HomeFantasyFootball from '../images/HomeFantasyFootball.PNG'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -21,14 +22,14 @@ class HomePage extends Component {
     render() {
         return(
             <div>
-                <header class="header">
+                <header className="header">
                     {/* <a href="" class="logo">Logo</a> */}
-                    <input class="menu-btn" type="checkbox" id="menu-btn" />
-                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                    <ul class="menu">
+                    <input className="menu-btn" type="checkbox" id="menu-btn" />
+                    <label className="menu-icon"><span className="navicon"></span></label>
+                    <ul className="menu">
                         <li><AnchorLink href="#home">Home</AnchorLink></li>
-                        <Link to='/portfolio/AboutMe'>
-                        {/* <Link to='/AboutMe'> */}
+                        {/* <Link to='/portfolio/AboutMe'> */}
+                        <Link to='/AboutMe'>
                             <li><a href="">About Me</a></li>
                         </Link>
                         <li><AnchorLink href="#work">Work</AnchorLink></li>
@@ -41,9 +42,9 @@ class HomePage extends Component {
                             <ReactCSSTransitionGroup
                                 transitionName="bannerAppear"
                                 transitionAppear={true}
-                                transitionAppearTimeout={3000}
-                                transitionEnter={false}
-                                transitionLeave={false}>
+                                transitionAppearTimeout={2000}
+                                transitionEnterTimeout={500}
+                                transitionLeaveTimeout={300}>
                                 <Col className='bannerCol' lg={12}>
                                     <h1>Nathan Han</h1>
                                     <h2>UX Designer | Developer | Product Manager</h2> 
@@ -112,8 +113,21 @@ class HomePage extends Component {
                             </div>
                         </Col>
                     </Row>
+                    <Row>
+                        <Col lg={6}>
+                            <img src={HomeFantasyFootball} alt="Fantasy Football Player Comparison Tool Home Screenshot"></img>
+                        </Col>
+                        <Col lg={6}>
+                            <div className='details'>
+                                <h4>Fantasy Football Player Comparison Tool</h4>
+                                <h5>Python | HTML | CSS | JSON/REST</h5>
+                                <p>Webapp that compares season stats for NFL players</p>
+                                <Button>Read More</Button>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
-                <CarouselHomePage />
+                {/* <CarouselHomePage /> */}
                 <Container fluid id='contact' className='contact'>
                     <h2>
                         Contact Me
@@ -121,17 +135,17 @@ class HomePage extends Component {
                     <Row>
                         <Col>
                             <a href='https://www.linkedin.com/in/nathan-han/'>
-                                <i class="fab fa-linkedin fa-5x"></i>
+                                <i className="fab fa-linkedin fa-5x"></i>
                             </a>
                         </Col>
                         <Col>
                             <a href='https://github.com/nh0713'>
-                                <i class="fab fa-github-square fa-5x"></i>
+                                <i className="fab fa-github-square fa-5x"></i>
                             </a>
                         </Col>
                         <Col>
                             <a href='mailto:nathan0713@gmail.com'>
-                                <i class="fas fa-envelope-square fa-5x" alt='email'></i>
+                                <i className="fas fa-envelope-square fa-5x" alt='email'></i>
                             </a>
                         </Col>
                     </Row>

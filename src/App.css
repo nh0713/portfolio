@@ -31,12 +31,10 @@ html, body {
     position: relative; */
 }
 
-.rowContainer {
-  /* background-color: red;
-  height: 70%; */
+.rowContainer, .aboutMeAnimation {
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%,-50%);
 }
 
@@ -154,6 +152,33 @@ html, body {
 .bannerAppear-appear.bannerAppear-appear-active {
   opacity: 1;
   transform: translateY(0px);
+  transition: all 1s ease-out;
+}
+
+.test-enter {
+  opacity: 0.01;
+}
+
+.test-enter.test-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.test-leave {
+  opacity: 1;
+}
+
+.test-leave.test-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.test-appear {
+  opacity: 0.01;
+}
+
+.test-appear.test-appear-active {
+  opacity: 1;
   transition: all 1s ease-out;
 }
 

@@ -3,9 +3,6 @@ import '../App.css';
 
 import LaserCut from '../images/LaserCut1.jpg'
 import ThreeDPrint from '../images/3DPrint.jpg'
-import HomeFantasyFootball from '../images/HomeFantasyFootball.PNG'
-
-
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -42,24 +39,6 @@ class CarouselHomePage extends Component {
                                 3D Printed Toiletries Stand/Container
                             </h3>
                         </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Row>
-                            <Col lg={12}>
-                                <a href='https://medium.com/@nh0713/3d-printed-object-53519fbaf8e2' className="d-block w-100">
-                                    <img src={HomeFantasyFootball} alt='Fantasy Football Player Comparison Tool Home Screenshot'></img>
-                                </a>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col lg={12}>
-                                <Carousel.Caption>
-                                    <h3>
-                                        Fantasy Football Player Comparison Tool
-                                    </h3>
-                                </Carousel.Caption>
-                            </Col>
-                        </Row>
                     </Carousel.Item>
                 </Carousel>
             </Container>
