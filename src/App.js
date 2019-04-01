@@ -11,7 +11,7 @@ import TextbookFriends from './components/TextbookFriends';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Switch>
           <Route path='/portfolio/' component={HomePage} exact />
           <Route path='/portfolio/AboutMe' component={AboutMe} exact />
