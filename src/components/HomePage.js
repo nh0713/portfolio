@@ -28,14 +28,9 @@ class HomePage extends Component {
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
                         <li><AnchorLink href="#home">Home</AnchorLink></li>
-                        {/* <Link to='/portfolio/AboutMe'> */}
-                        {/* <li>
-                            <Link to='/AboutMe'>
-                            <   a href="/AboutMe">About Me</a>
-                            </Link>
-                        </li> */}
                         {/* <Link to='/AboutMe'> */}
-                            <li><a href="/AboutMe">About Me</a></li>
+                            {/* <li><a href="/AboutMe">About Me</a></li> */}
+                            <li><a href="/portfolio/AboutMe">About Me</a></li>
                         {/* </Link> */}
                         <li><AnchorLink href="#work">Work</AnchorLink></li>
                         <li><AnchorLink href="#contact">Contact</AnchorLink></li>

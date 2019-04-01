@@ -25,13 +25,9 @@ class TextbookFriends extends Component {
                     <ul className="menu">
                         <li><a href="/">Home</a></li>
                         {/* <Link to='/portfolio/AboutMe'> */}
-                        {/* <li>
-                            <Link to='/AboutMe'>
-                            <   a href="/AboutMe">About Me</a>
-                            </Link>
-                        </li> */}
                         {/* <Link to='/AboutMe'> */}
-                            <li><a href="/AboutMe">About Me</a></li>
+                            {/* <li><a href="/AboutMe">About Me</a></li> */}
+                            <li><a href="/portfolio/AboutMe">About Me</a></li>
                         {/* </Link> */}
                         <li><a href="/#work">Work</a></li>
                         <li><a href="/#contact">Contact</a></li>
