@@ -29,7 +29,7 @@ class About extends Component {
                 <header className="header">
                     {/* <a href="" class="logo">Logo</a> */}
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
-                    <label className="menu-icon"><span className="navicon"></span></label>
+                    <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
                         <Link to='/'>
                             <li><a href="">Home</a></li>
@@ -41,24 +41,32 @@ class About extends Component {
                         <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </header>
-                <div className='aboutMeAnimation'>
+                {/* <div className='aboutMeAnimation'>
                     <ReactCSSTransitionGroup
                     transitionName="test"
                     transitionAppear={true}
                     transitionAppearTimeout={2000}
                     transitionEnterTimeout={500}
                     transitionLeaveTimeout={300}>
-                        {items[0]}
-                    </ReactCSSTransitionGroup>
-                </div>
-                {/* <div className='aboutMeAnimation'>
-                    <ReactCSSTransitionGroup
-                        transitionName="test"
-                        transitionEnterTimeout={500}
-                        transitionLeaveTimeout={300}>>
-                        <h2>Hi</h2>
+                        <h1>Hi!</h1>
                     </ReactCSSTransitionGroup>
                 </div> */}
+                <Container fluid className='outerDiv'>
+                    <Container className='aboutMeAnimation'>
+                        <div className='fadeInOne'>
+                            <h1>Hi!</h1>
+                        </div>
+                        <div className='fadeInTwo'>
+                            <h1>I am intersted in Front-End Development and UX Design</h1>
+                        </div>
+                        <div className='fadeInThree'>
+                            <h1>Get to know me!</h1>
+                        </div>
+                    </Container>
+                </Container>
+                <Container fluid>
+                        <h1>3</h1>
+                </Container>
             </div>
         );
     }

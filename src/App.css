@@ -1,10 +1,3 @@
-/* .box {
-  width: 100px;
-  height: 100px;
-  background: #ff1c68;
-  transform-origin: 50% 50%;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -31,11 +24,20 @@ html, body {
     position: relative; */
 }
 
-.rowContainer, .aboutMeAnimation {
+.outerDiv {
+  height: 100vh;
+  width: 100%;
+}
+
+.rowContainer, .aboutMeAnimation h1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+.aboutMeAnimation h1 {
+  text-align: center;
 }
 
 .rowContainer .row {
@@ -79,15 +81,6 @@ html, body {
   margin-bottom: 5%;
 }
 
-/* .skillsCol {
-  margin-top: 5%;
-  background-color: gray;
-}
-
-.skillsCol h3 {
-  font-size: 1vh;
-} */
-
 .details {
   position: relative;
   top: 50%;
@@ -114,35 +107,101 @@ html, body {
 .footer {
   background-color: #C4CED4;
   height: 5vh;
-  margin-top: 5%;
+  margin-top: 4%;
   font-size: 20px;
   text-align: center;
   line-height: 5vh;
+  width: 100%;
 }
 
-.carousel img {
-  max-width: 100%;
-  height: 40vh;
+.outerContainer {
+  /* background-color: red; */
+  padding: 0;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 6.3vh;
+}
+
+.projectDetails {
+  /* background-color: lightgray; */
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.projectDetails ul {
+  width: 70%;
+  margin: auto;
+}
+
+.projectDetails h2 {
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.projectDetails p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.projectDetails h2, .projectDetails h3, .projectDetails h4, .projectDetails h5 {
+  text-align: center;
+}
+
+.projectDetails p, .projectDetails li {
+  font-size: 20px;
+}
+
+.projectDetails h3 {
+  margin-top: 5%;
+}
+
+.projectDetails h4 {
+  font-size: 22px;
+  overflow: auto;
+}
+
+.projectDetails h5 {
+  font-size: 20px;
+}
+
+.projectDetails img {
+  width: 50%;
+  transition-timing-function: ease-out;
+  -moz-transition: width 1.5s;
+  -webkit-transition: width 1.5s;
+  transition: width 1.5s;
   margin: auto;
   display: block;
 }
 
-.carousel {
-  background-color: #C4CED4;
-  width: 70%;
-  height: 40vh;
-  margin: 0 auto;
+.projectDetails img:hover {
+  width: 100%;
 }
 
-.carousel h3 {
-  color: white;
-  font-size: 20px;
+.projectDetails a {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
 }
 
-.carouselHomePageContainer h2{
-  text-align: center;
+.compAnalyzed {
   margin-bottom: 5%;
 }
+
+.compAnalyzed h5 {
+  margin-top: 5%;
+}
+
+.btnHiFiRow {
+  width: 50%;
+  margin: auto;
+}
+
+
+
 
 .bannerAppear-appear {
   opacity: 0.01;
@@ -182,6 +241,46 @@ html, body {
   transition: all 1s ease-out;
 }
 
+.fadeInOne h1, .fadeInTwo h1 {
+  text-align: center;
+}
+
+.fadeInOne h1, .fadeInTwo h1, .fadeInThree h1 {
+  animation: fadeInOut 4s;
+  -moz-animation: fadeInOut 4s; /* Firefox */
+  -webkit-animation: fadeInOut 4s; /* Safari and Chrome */
+  -o-animation: fadeInOut 4s; /* Opera */
+  opacity: 0;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+  -o-animation-timing-function: ease-out;
+}
+
+.fadeInTwo h1 {
+  animation-delay: 4s;
+}
+
+.fadeInThree h1 {
+  animation-delay: 8s;
+}
+
+.fadeInFour h1 {
+  animation-delay: 16s;
+  /* animation: fadeIn 21s;
+  -moz-animation: 21s ease 0s normal forwards 1 fadeIn;
+  -webkit-animation: 21s ease 0s normal forwards 1 fadeIn;
+  animation: 21s ease 0s normal forwards 1 fadeIn; */
+}
+
+
+
+
+
+
+
+
+
 /* header */
 
 .header {
@@ -205,7 +304,6 @@ html, body {
   display: block;
   padding: 10px 10px;
   color: white;
-  /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
 }
 
@@ -245,10 +343,10 @@ html, body {
 .header .menu-icon .navicon {
   background: white;
   display: block;
-  height: 2px;
+  height: 3px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 20px;
 }
 
 .header .menu-icon .navicon:before,
@@ -263,11 +361,11 @@ html, body {
 }
 
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 7px;
 }
 
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -7px;
 }
 
 /* menu btn */
@@ -315,6 +413,17 @@ html, body {
     display: none;
   }
 
+}
+
+@keyframes fadeInOut {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+@keyframes fadeIn {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
 }
 
 /* 

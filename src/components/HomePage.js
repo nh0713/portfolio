@@ -14,7 +14,7 @@ import Button from 'react-bootstrap/Button';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Link } from 'react-router-dom'
 
-import CarouselHomePage from './CarouselHomePage.js'
+import Footer from './Footer.js'
 
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
@@ -25,13 +25,18 @@ class HomePage extends Component {
                 <header className="header">
                     {/* <a href="" class="logo">Logo</a> */}
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
-                    <label className="menu-icon"><span className="navicon"></span></label>
+                    <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
                         <li><AnchorLink href="#home">Home</AnchorLink></li>
                         {/* <Link to='/portfolio/AboutMe'> */}
-                        <Link to='/AboutMe'>
-                            <li><a href="">About Me</a></li>
-                        </Link>
+                        {/* <li>
+                            <Link to='/AboutMe'>
+                            <   a href="/AboutMe">About Me</a>
+                            </Link>
+                        </li> */}
+                        {/* <Link to='/AboutMe'> */}
+                            <li><a href="/AboutMe">About Me</a></li>
+                        {/* </Link> */}
                         <li><AnchorLink href="#work">Work</AnchorLink></li>
                         <li><AnchorLink href="#contact">Contact</AnchorLink></li>
                     </ul>
@@ -66,7 +71,11 @@ class HomePage extends Component {
                             <h4>Textbook Friends</h4>
                             <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap</h5>
                             <p>Website that allows college students to buy and sell textbooks locally.</p>
-                            <Button>Read More</Button>
+                            {/* <Link to='/TextbookFriends'> */}
+                            <a href='/TextbookFriends'>
+                                <Button>Read More</Button>
+                            </a>
+                            {/* </Link> */}
                         </div>
                         </Col>
                     </Row>
@@ -115,13 +124,13 @@ class HomePage extends Component {
                     </Row>
                     <Row>
                         <Col lg={6}>
-                            <img src={HomeFantasyFootball} alt="Fantasy Football Player Comparison Tool Home Screenshot"></img>
+                            <img src={HomeFantasyFootball} alt="Fantasy Football Player Comparison Tool Home Screenshot" className='textbookFriendsImage'></img>
                         </Col>
                         <Col lg={6}>
                             <div className='details'>
                                 <h4>Fantasy Football Player Comparison Tool</h4>
                                 <h5>Python | HTML | CSS | JSON/REST</h5>
-                                <p>Webapp that compares season stats for NFL players</p>
+                                <p>Web app that compares season stats for NFL players</p>
                                 <Button>Read More</Button>
                             </div>
                         </Col>
@@ -150,11 +159,7 @@ class HomePage extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <Container fluid className="footer">
-                    <div>
-                        &copy; {new Date().getFullYear()} by Nathan Han
-                    </div>
-                </Container>
+                <Footer />
             </div>
         );
     }
