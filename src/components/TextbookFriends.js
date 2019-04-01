@@ -35,10 +35,10 @@ class TextbookFriends extends Component {
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
-                    {/* <Container className="projectDetails">
+                    <Container className="projectDetails">
                         <ProjectBackground />
                         <Purpose />
-                        <CompetitiveAnalysis />
+                        {/* <CompetitiveAnalysis />
                         <Wireframes />
                         <UserResearch />
                         <h2>Affinity Diagram</h2>
@@ -58,8 +58,8 @@ class TextbookFriends extends Component {
                         <a href='https://nh0713.github.io/hcde498-firstpage/'>
                             <Button>Try Textbook Friends</Button>
                         </a>
-                    </Container>
-                    <Footer /> */}
+                    </Container> */}
+                    <Footer />
                 </Container>
             </div>
         );
