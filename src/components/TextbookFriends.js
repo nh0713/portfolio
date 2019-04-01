@@ -37,9 +37,9 @@ class TextbookFriends extends Component {
                 <Container fluid className="outerContainer">
                     <Container className="projectDetails">
                         <ProjectBackground />
-                        {/* <Purpose />
+                        <Purpose />
                         <CompetitiveAnalysis />
-                        <Wireframes />
+                        {/* <Wireframes />
                         <UserResearch />
                         <h2>Affinity Diagram</h2>
                         <img src={affinityDiagram} alt='Affinity Diagram'></img>
