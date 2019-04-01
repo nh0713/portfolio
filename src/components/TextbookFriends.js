@@ -19,17 +19,18 @@ class TextbookFriends extends Component {
         return (
             <div>
                 <header className="header">
-                    {/* <a href="" class="logo">Logo</a> */}
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
-                        <li><a href="/">Home</a></li>
+                        <Link to='/portfolio/'>
+                            <li><a href="">Home</a></li>
+                        </Link>
                         {/* <Link to='/portfolio/AboutMe'> */}
                         {/* <Link to='/AboutMe'> */}
                             {/* <li><a href="/AboutMe">About Me</a></li> */}
                             <li><a href="/portfolio/AboutMe">About Me</a></li>
                         {/* </Link> */}
-                        <li><a href="/#work">Work</a></li>
+                        <li><a href="/portfolio/#work">Work</a></li>
                         <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </header>
