@@ -38,17 +38,17 @@ class HomePage extends Component {
                 <Container fluid id='home' className='imgBanner'> 
                     <Container className="rowContainer">
                         <Row>
-                            <ReactCSSTransitionGroup
+                            {/* <ReactCSSTransitionGroup
                                 transitionName="bannerAppear"
                                 transitionAppear={true}
                                 transitionAppearTimeout={2000}
-                                transitionEnterTimeout={500}
+                                transitionEnterTimeout={500} */}
                                 transitionLeaveTimeout={300}>
                                 <Col className='bannerCol' lg={12}>
                                     <h1>Nathan Han</h1>
                                     <h2>UX Designer | Developer | Product Manager</h2> 
                                 </Col>
-                            </ReactCSSTransitionGroup>
+                            {/* </ReactCSSTransitionGroup> */}
                         </Row>
                     </Container>
                 </Container>

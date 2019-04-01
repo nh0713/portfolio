@@ -25,11 +25,11 @@ class TextbookFriends extends Component {
                         <Link to='/portfolio/'>
                             <li><a href="">Home</a></li>
                         </Link>
-                        {/* <Link to='/portfolio/AboutMe'> */}
+                        <Link to='/portfolio/AboutMe'>
                         {/* <Link to='/AboutMe'> */}
                             {/* <li><a href="/AboutMe">About Me</a></li> */}
-                            <li><a href="/portfolio/AboutMe">About Me</a></li>
-                        {/* </Link> */}
+                            <li><a href="">About Me</a></li>
+                        </Link>
                         <li><a href="/portfolio/#work">Work</a></li>
                         <li><a href="/#contact">Contact</a></li>
                     </ul>
