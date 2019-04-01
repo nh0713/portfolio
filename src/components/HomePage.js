@@ -65,8 +65,8 @@ class HomePage extends Component {
                             <h4>Textbook Friends</h4>
                             <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap</h5>
                             <p>Website that allows college students to buy and sell textbooks locally.</p>
-                            <Link to='/portfolio/TextbookFriends'>
-                            {/* <a href='/TextbookFriends'> */}
+                            {/* <Link to='/portfolio/TextbookFriends'> */}
+                            <Link to='/TextbookFriends'>
                                 <Button>Read More</Button>
                             </Link>
                         </div>

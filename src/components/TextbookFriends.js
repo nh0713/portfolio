@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import textbookFriends from '../images/textbookFriends-min.PNG';
 import wireframes from '../images/wireframes.png';
 import affinityDiagram from '../images/affinity.jpg';
+import { Container, Row, Col, Button } from "react-bootstrap";
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom'
 
 import Footer from './Footer.js'
 
 
 class TextbookFriends extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
     render() {
         return (
             <div>
@@ -59,7 +59,7 @@ class TextbookFriends extends Component {
                             <Button>Try Textbook Friends</Button>
                         </a>
                     </Container>
-                    {/* <Footer /> */}
+                    <Footer />
                 </Container>
             </div>
         );
