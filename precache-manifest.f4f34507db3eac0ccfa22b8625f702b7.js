@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/attFriends.16cee1c2.png"
   },
   {
-    "revision": "b7805685e5f33224d7e4",
-    "url": "/portfolio/static/css/main.a4d0d3fc.chunk.css"
+    "revision": "4ac30399545be70f495d",
+    "url": "/portfolio/static/css/main.dc0d06e7.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "b2302c17d6e36380ec8b",
-    "url": "/portfolio/static/js/2.c648865b.chunk.js"
+    "revision": "f40d8d07818856560a6d",
+    "url": "/portfolio/static/js/2.565d01f0.chunk.js"
   },
   {
     "revision": "462bb310e06c67cb911b1afa77d3269e",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/grailz.85affbe9.png"
   },
   {
-    "revision": "b7805685e5f33224d7e4",
-    "url": "/portfolio/static/js/main.eeb9662b.chunk.js"
+    "revision": "4ac30399545be70f495d",
+    "url": "/portfolio/static/js/main.c2fabecc.chunk.js"
   },
   {
     "revision": "bc1c262ec70e08e53600e429e4883e38",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
   },
   {
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "/portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  {
     "revision": "a4ca1dfa2a562fabb4fb3cf943ffb213",
     "url": "/portfolio/static/media/wireframes.a4ca1dfa.png"
   },
@@ -48,11 +52,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/affinity.874c2933.jpg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/portfolio/static/media/logo.5d5d9eef.svg"
-  },
-  {
-    "revision": "07f90255361c207aec377c447aec2d4f",
+    "revision": "155975c4ba3fe539bf367dfb51b4c111",
     "url": "/portfolio/index.html"
   }
 ];
