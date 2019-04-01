@@ -35,14 +35,14 @@ class TextbookFriends extends Component {
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
-                    <Container className="projectDetails">
+                    {/* <Container className="projectDetails">
                         <ProjectBackground />
                         <Purpose />
                         <CompetitiveAnalysis />
                         <Wireframes />
                         <UserResearch />
                         <h2>Affinity Diagram</h2>
-                        {/* <img src={affinityDiagram} alt='Affinity Diagram'></img> */}
+                        <img src={affinityDiagram} alt='Affinity Diagram'></img>
                         <h2>Hi-Fi Prototypes</h2>
                         <Row className="btnHiFiRow">
                             <Col sm={12} md={6}>
@@ -59,7 +59,7 @@ class TextbookFriends extends Component {
                             <Button>Try Textbook Friends</Button>
                         </a>
                     </Container>
-                    <Footer />
+                    <Footer /> */}
                 </Container>
             </div>
         );
@@ -210,7 +210,7 @@ class Wireframes extends Component {
         return (
             <div>
                 <h2>Wireframes</h2>
-                {/* <img src={wireframes} alt='Wireframes'></img> */}
+                <img src={wireframes} alt='Wireframes'></img>
             </div>
         )
     }
