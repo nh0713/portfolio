@@ -23,7 +23,6 @@ class HomePage extends Component {
         return(
             <div>
                 <header className="header">
-                    {/* <a href="" class="logo">Logo</a> */}
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
