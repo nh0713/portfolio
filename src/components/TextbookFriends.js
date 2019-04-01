@@ -38,8 +38,8 @@ class TextbookFriends extends Component {
                     <Container className="projectDetails">
                         <ProjectBackground />
                         <Purpose />
-                        {/* <CompetitiveAnalysis />
-                        <Wireframes />
+                        <CompetitiveAnalysis />
+                        {/* <Wireframes />
                         <UserResearch />
                         <h2>Affinity Diagram</h2>
                         <img src={affinityDiagram} alt='Affinity Diagram'></img>
@@ -57,8 +57,8 @@ class TextbookFriends extends Component {
                         <WhatILearned />
                         <a href='https://nh0713.github.io/hcde498-firstpage/'>
                             <Button>Try Textbook Friends</Button>
-                        </a>
-                    </Container> */}
+                        </a> */}
+                    </Container>
                     <Footer />
                 </Container>
             </div>
