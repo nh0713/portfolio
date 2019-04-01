@@ -42,8 +42,8 @@ class HomePage extends Component {
                                 transitionName="bannerAppear"
                                 transitionAppear={true}
                                 transitionAppearTimeout={2000}
-                                transitionEnterTimeout={500} */}
-                                transitionLeaveTimeout={300}>
+                                transitionEnterTimeout={500}
+                                transitionLeaveTimeout={300}> */}
                                 <Col className='bannerCol' lg={12}>
                                     <h1>Nathan Han</h1>
                                     <h2>UX Designer | Developer | Product Manager</h2> 
