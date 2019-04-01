@@ -31,7 +31,7 @@ class TextbookFriends extends Component {
                             <li><a href="">About Me</a></li>
                         </Link>
                         <li><a href="/portfolio/#work">Work</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/portfolio/#contact">Contact</a></li>
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
@@ -42,7 +42,7 @@ class TextbookFriends extends Component {
                         <Wireframes />
                         <UserResearch />
                         <h2>Affinity Diagram</h2>
-                        <img src={affinityDiagram} alt='Affinity Diagram'></img>
+                        {/* <img src={affinityDiagram} alt='Affinity Diagram'></img> */}
                         <h2>Hi-Fi Prototypes</h2>
                         <Row className="btnHiFiRow">
                             <Col sm={12} md={6}>
@@ -210,7 +210,7 @@ class Wireframes extends Component {
         return (
             <div>
                 <h2>Wireframes</h2>
-                <img src={wireframes} alt='Wireframes'></img>
+                {/* <img src={wireframes} alt='Wireframes'></img> */}
             </div>
         )
     }

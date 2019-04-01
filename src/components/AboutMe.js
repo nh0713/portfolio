@@ -8,9 +8,6 @@ import Button from 'react-bootstrap/Button';
 
 import { Link } from 'react-router-dom'
 
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-
-
 class About extends Component {
     constructor(props) {
         super(props);
@@ -39,20 +36,10 @@ class About extends Component {
                         {/* <Link to='/AboutMe'> */}
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <li><a href="/#work">Work</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/portfolio/#work">Work</a></li>
+                        <li><a href="/portfolio/#contact">Contact</a></li>
                     </ul>
                 </header>
-                {/* <div className='aboutMeAnimation'>
-                    <ReactCSSTransitionGroup
-                    transitionName="test"
-                    transitionAppear={true}
-                    transitionAppearTimeout={2000}
-                    transitionEnterTimeout={500}
-                    transitionLeaveTimeout={300}>
-                        <h1>Hi!</h1>
-                    </ReactCSSTransitionGroup>
-                </div> */}
                 <Container fluid className='outerDiv'>
                     <Container className='aboutMeAnimation'>
                         <div className='fadeInOne'>
