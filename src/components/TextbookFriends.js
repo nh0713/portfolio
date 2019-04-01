@@ -38,7 +38,7 @@ class TextbookFriends extends Component {
                     <Container className="projectDetails">
                         <ProjectBackground />
                         <Purpose />
-                        {/* <CompetitiveAnalysis /> */}
+                        <CompetitiveAnalysis />
                         <Wireframes />
                         <UserResearch />
                         <h2>Affinity Diagram</h2>
@@ -59,7 +59,7 @@ class TextbookFriends extends Component {
                             <Button>Try Textbook Friends</Button>
                         </a>
                     </Container>
-                    <Footer />
+                    {/* <Footer /> */}
                 </Container>
             </div>
         );
