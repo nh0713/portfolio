@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import { Container, Row, Col, Button, Card } from "react-bootstrap";
+
+
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
+import Footer from './Footer.js'
 
 import { Link } from 'react-router-dom'
+
+import hcde from '../images/hcde.eps';
+import att from '../images/att.svg';
+import football from '../images/football.jpg';
 
 class About extends Component {
     constructor(props) {
         super(props);
         this.state = {items: ['hello', 'world', 'click', 'me']};
+      }
+
+      componentDidMount() {
+        window.scrollTo(0, 0);
       }
 
     render() {
@@ -40,10 +50,10 @@ class About extends Component {
                         <li><a href="/portfolio/#contact">Contact</a></li>
                     </ul>
                 </header>
-                <Container fluid className='outerDiv'>
-                    <Container className='aboutMeAnimation'>
+                <div className='outerDiv'>
+                    <Container fluid className='aboutMeAnimation'>
                         <div className='fadeInOne'>
-                            <h1>Hi!</h1>
+                            <h1>Hi! My name is Nathan</h1>
                         </div>
                         <div className='fadeInTwo'>
                             <h1>I am intersted in Front-End Development and UX Design</h1>
@@ -51,11 +61,41 @@ class About extends Component {
                         <div className='fadeInThree'>
                             <h1>Get to know me!</h1>
                         </div>
+                        {/* <Container fluid className='fadeInFour'>
+                            <Row>
+                                <Col>
+                                    <AnchorLink offset={() => 70} href='#myJourney'><img src={hcde} alt='My Journey' /></AnchorLink>
+                                </Col>
+                                <Col>
+                                    <AnchorLink offset={() => 70} href='#workExperience'><img src={att} alt='Work Experience' /></AnchorLink>
+                                </Col>
+                                <Col>  
+                                    <AnchorLink offset={() => 70} href='#hobbies'><img src={football} alt='Hobbies' /></AnchorLink>
+                                </Col>
+                            </Row>
+                        </Container> */}
+                        <div className='fadeInFour'>
+                            <Container className='aboutMeContent'>
+                                <h2>My Journey</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>  
+                                <h2>Work Experience</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>  
+                                <h2>Hobbies</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc id cursus metus aliquam. Gravida quis blandit turpis cursus in hac habitasse. Cursus in hac habitasse platea dictumst quisque sagittis. Nullam vehicula ipsum a arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi cras fermentum. Dui faucibus in ornare quam viverra. Facilisi nullam vehicula ipsum a arcu cursus. At augue eget arcu dictum. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Auctor elit sed vulputate mi sit.</p>  
+                            </Container>
+                            <Footer />
+                        </div>
                     </Container>
-                </Container>
-                <Container fluid>
-                        <h1>3</h1>
-                </Container>
+                </div>
             </div>
         );
     }

@@ -29,7 +29,7 @@ html, body {
   width: 100%;
 }
 
-.rowContainer, .aboutMeAnimation h1 {
+.rowContainer, .aboutMeAnimation h1, .aboutMeAnimation .row{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,7 +91,7 @@ html, body {
 .contact {
   width: 70%;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 5%;
   text-align: center;
   justify-content: center;
 }
@@ -265,18 +265,40 @@ html, body {
   animation-delay: 8s;
 }
 
-.fadeInFour h1 {
-  animation-delay: 16s;
-  /* animation: fadeIn 21s;
-  -moz-animation: 21s ease 0s normal forwards 1 fadeIn;
-  -webkit-animation: 21s ease 0s normal forwards 1 fadeIn;
-  animation: 21s ease 0s normal forwards 1 fadeIn; */
+.fadeInFour {
+  animation: fadeIn 16s;
+  margin: 0 auto;
+  -moz-animation: 16s ease 0s normal forwards 1 fadeIn;
+  -webkit-animation: 16s ease 0s normal forwards 1 fadeIn;
+  animation: 16s ease 0s normal forwards 1 fadeIn;
 }
 
+.fadeInFour {
+  margin-top: 6.3vh;
+  padding-top: 5vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
 
+.fadeInFour h2 {
+  text-align: center;
+}
 
+.fadeInFour p {
+  font-size: 20px;
+}
 
+@keyframes fadeInOut {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
 
+@keyframes fadeIn {
+  0% { opacity:0;}
+  66% { opacity:0;}
+  100% { opacity:1;}
+}
 
 
 
@@ -413,17 +435,6 @@ html, body {
     display: none;
   }
 
-}
-
-@keyframes fadeInOut {
-  0%,100% { opacity: 0 }
-  50% { opacity: 1 }
-}
-
-@keyframes fadeIn {
-  0% { opacity:0; }
-  66% { opacity:0; }
-  100% { opacity:1; }
 }
 
 /* 

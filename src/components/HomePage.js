@@ -26,13 +26,13 @@ class HomePage extends Component {
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
-                        <li><AnchorLink href="#home">Home</AnchorLink></li>
-                        <Link to='/portfolio/AboutMe'>
-                        {/* <Link to='/AboutMe'> */}
+                        <li><AnchorLink offset={() => 70} href="#home">Home</AnchorLink></li>
+                        {/* <Link to='/portfolio/AboutMe'> */}
+                        <Link to='/AboutMe'>
                             <li><a href="/portfolio/AboutMe">About Me</a></li>
                         </Link>
-                        <li><AnchorLink href="#work">Work</AnchorLink></li>
-                        <li><AnchorLink href="#contact">Contact</AnchorLink></li>
+                        <li><AnchorLink offset={() => 70} href="#work">Work</AnchorLink></li>
+                        <li><AnchorLink offset={() => 70} href="#contact">Contact</AnchorLink></li>
                     </ul>
                 </header>
                 <Container fluid id='home' className='imgBanner'> 
@@ -65,8 +65,8 @@ class HomePage extends Component {
                             <h4>Textbook Friends</h4>
                             <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap</h5>
                             <p>Website that allows college students to buy and sell textbooks locally.</p>
-                            {/* <Link to='/portfolio/TextbookFriends'> */}
-                            <Link to='/TextbookFriends'>
+                            <Link to='/portfolio/TextbookFriends'>
+                            {/* <Link to='/TextbookFriends'> */}
                                 <Button>Read More</Button>
                             </Link>
                         </div>
