@@ -22,15 +22,15 @@ class TextbookFriends extends Component {
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
-                        <Link to='/portfolio/'>
+                        <Link to='/'>
                             <li><a href="">Home</a></li>
                         </Link>
                         <Link to='/AboutMe'>
                             {/* <li><a href="/AboutMe">About Me</a></li> */}
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <li><a href="/portfolio/#work">Work</a></li>
-                        <li><a href="/portfolio/#contact">Contact</a></li>
+                        <li><a href="/#work">Work</a></li>
+                        <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
