@@ -27,8 +27,8 @@ class HomePage extends Component {
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
                         <li><AnchorLink offset={() => 70} href="#home">Home</AnchorLink></li>
-                        {/* <Link to='/portfolio/AboutMe'> */}
-                        <Link to='/AboutMe'>
+                        <Link to='/portfolio/AboutMe'>
+                        {/* <Link to='/AboutMe'> */}
                             <li><a href="/portfolio/AboutMe">About Me</a></li>
                         </Link>
                         <li><AnchorLink offset={() => 70} href="#work">Work</AnchorLink></li>
