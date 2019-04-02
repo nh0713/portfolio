@@ -38,12 +38,10 @@ class About extends Component {
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
-                        <Link to='/portfolio/'>
-                        {/* <Link to='/'> */}
+                        <Link to='/'>
                             <li><a href="">Home</a></li>
                         </Link>
-                        <Link to='/portfolio/AboutMe'>
-                        {/* <Link to='/AboutMe'> */}
+                        <Link to='/AboutMe'>
                             <li><a href="">About Me</a></li>
                         </Link>
                         <li><a href="/portfolio/#work">Work</a></li>

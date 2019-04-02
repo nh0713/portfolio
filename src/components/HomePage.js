@@ -27,7 +27,6 @@ class HomePage extends Component {
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
                         <li><AnchorLink offset={() => 70} href="#home">Home</AnchorLink></li>
-                        {/* <Link to='/portfolio/AboutMe'> */}
                         <Link to='/AboutMe'>
                             <li><a href="/portfolio/AboutMe">About Me</a></li>
                         </Link>
@@ -65,7 +64,6 @@ class HomePage extends Component {
                             <h4>Textbook Friends</h4>
                             <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap</h5>
                             <p>Website that allows college students to buy and sell textbooks locally.</p>
-                            {/* <Link to='/portfolio/TextbookFriends'> */}
                             <Link to='/TextbookFriends'>
                                 <Button>Read More</Button>
                             </Link>
