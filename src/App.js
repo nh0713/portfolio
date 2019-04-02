@@ -11,20 +11,20 @@ import TextbookFriends from './components/TextbookFriends';
 class App extends Component {
   render() {
     return (
+      // <Router>
+      //   <Switch>
+      //     <Route path='/' component={HomePage} exact />
+      //     <Route path='/portfolio/#/AboutMe' component={AboutMe} exact />
+      //     <Route path='/portfolio/#/TextbookFriends' component={TextbookFriends} exact />
+      //   </Switch>
+      // </Router>
       <Router>
-        <Switch>
-          <Route path='/' component={HomePage} exact />
-          <Route path='/portfolio/#/AboutMe' component={AboutMe} exact />
-          <Route path='/portfolio/#/TextbookFriends' component={TextbookFriends} exact />
-        </Switch>
-      </Router>
-    //   <Router>
-    //   <Switch>
-    //     <Route path='/' component={HomePage} exact />
-    //     <Route path='/AboutMe' component={AboutMe} exact />
-    //     <Route path='/TextbookFriends' component={TextbookFriends} exact />
-    //   </Switch>
-    // </Router>
+      <Switch>
+        <Route path='/' component={HomePage} exact />
+        <Route path='/AboutMe' component={AboutMe} exact />
+        <Route path='/TextbookFriends' component={TextbookFriends} exact />
+      </Switch>
+    </Router>
     );
   }
 }
