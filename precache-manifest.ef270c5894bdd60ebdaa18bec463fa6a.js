@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/shredderz.bc1c262e.png"
   },
   {
-    "revision": "133341d59e60d97c5b2a",
+    "revision": "88c445945f2a6480c7a5",
     "url": "/portfolio/static/css/main.ea8b23c5.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/attFriends.16cee1c2.png"
   },
   {
-    "revision": "133341d59e60d97c5b2a",
-    "url": "/portfolio/static/js/main.6d177426.chunk.js"
+    "revision": "88c445945f2a6480c7a5",
+    "url": "/portfolio/static/js/main.b1c0c8aa.chunk.js"
   },
   {
     "revision": "7fcb30ee1b75372a81cfd151fb705d57",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/football.4fc7a649.jpg"
   },
   {
-    "revision": "6a60db0e75cc26b86639e3de50547b90",
+    "revision": "7948ff6a1f1a895359b332221344e851",
     "url": "/portfolio/index.html"
   }
 ];
