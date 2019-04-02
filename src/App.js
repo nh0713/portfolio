@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { HashRouter as Router, Route, Switch} from 'react-router-dom'
 
 import HomePage from './components/HomePage.js'
 import AboutMe from './components/AboutMe'
