@@ -19,12 +19,12 @@ class App extends Component {
       //   </Switch>
       // </Router>
       <Router>
-      <Switch>
-        <Route path='/' component={HomePage} exact />
-        <Route path='/AboutMe' component={AboutMe} exact />
-        <Route path='/TextbookFriends' component={TextbookFriends} exact />
-      </Switch>
-    </Router>
+        <Switch>
+          <Route path='/' component={HomePage} exact />
+          <Route path='/AboutMe' component={AboutMe} exact />
+          <Route path='/TextbookFriends' component={TextbookFriends} exact />
+        </Switch>
+      </Router>
     );
   }
 }
