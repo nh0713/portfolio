@@ -29,8 +29,8 @@ class TextbookFriends extends Component {
                             {/* <li><a href="/AboutMe">About Me</a></li> */}
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <li><a href="/#work">Work</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/portfolio/#/#work">Work</a></li>
+                        <li><a href="/portfolio/#/#contact">Contact</a></li>
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">

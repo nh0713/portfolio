@@ -44,8 +44,8 @@ class About extends Component {
                         <Link to='/AboutMe'>
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <li><a href="/#work">Work</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/portfolio/#/#work">Work</a></li>
+                        <li><a href="/portfolio/#/#contact">Contact</a></li>
                     </ul>
                 </header>
                 <div className='outerDiv'>
