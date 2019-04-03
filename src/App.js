@@ -6,6 +6,9 @@ import { HashRouter as Router, Route, Switch} from 'react-router-dom'
 import HomePage from './components/HomePage.js'
 import AboutMe from './components/AboutMe'
 import TextbookFriends from './components/TextbookFriends';
+import Grailz from './components/Grailz';
+import AttFriends from './components/AttFriends';
+import FantasyFootball from './components/FantasyFootball';
 
 
 class App extends Component {
@@ -31,6 +34,9 @@ class App extends Component {
           <Route path='/' component={HomePage} exact />
           <Route path='/AboutMe' component={AboutMe} exact />
           <Route path='/TextbookFriends' component={TextbookFriends} exact />
+          <Route path='/Grailz' component={Grailz} exact />
+          <Route path='/AttFriends' component={AttFriends} exact />
+          <Route path='/FantasyFootball' component={FantasyFootball} exact />
         </Switch>
       </Router>
     );

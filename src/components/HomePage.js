@@ -37,17 +37,24 @@ class HomePage extends Component {
                 <Container fluid id='home' className='imgBanner'> 
                     <Container className="rowContainer">
                         <Row>
-                            <ReactCSSTransitionGroup
-                                transitionName="bannerAppear"
+                            <Col className='bannerCol' lg={12}>
+                                <ReactCSSTransitionGroup
+                                transitionName="bannerAppearTop"
                                 transitionAppear={true}
                                 transitionAppearTimeout={2000}
                                 transitionEnterTimeout={500}
                                 transitionLeaveTimeout={300}>
-                                <Col className='bannerCol' lg={12}>
                                     <h1>Nathan Han</h1>
+                                </ReactCSSTransitionGroup>
+                                <ReactCSSTransitionGroup
+                                transitionName="bannerAppearBottom"
+                                transitionAppear={true}
+                                transitionAppearTimeout={2000}
+                                transitionEnterTimeout={500}
+                                transitionLeaveTimeout={300}>
                                     <h2>UX Designer | Developer | Product Manager</h2> 
-                                </Col>
-                            </ReactCSSTransitionGroup>
+                                </ReactCSSTransitionGroup>
+                            </Col>
                         </Row>
                     </Container>
                 </Container>
@@ -81,7 +88,9 @@ class HomePage extends Component {
                             <h4>Grailz</h4>
                             <h5>Swift | REST/JSON</h5>
                             <p>App that displays upcoming sneaker release dates and details.</p>
-                            <Button>Read More</Button>
+                            <Link to='/Grailz'>
+                                <Button>Read More</Button>
+                            </Link>
                         </div>
                         </Col>
                     </Row>
@@ -96,7 +105,9 @@ class HomePage extends Component {
                                 <h4>AT&T Friends</h4>
                                 <h5>Invision | Adobe Illustrator | Product Management | Teamwork</h5>
                                 <p>Prototype app designed assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
-                                <Button>Read More</Button>
+                                <Link to='/AttFriends'>
+                                    <Button>Read More</Button>
+                                </Link>
                             </div>
                         </Col>
                     </Row>
@@ -122,7 +133,9 @@ class HomePage extends Component {
                                 <h4>Fantasy Football Player Comparison Tool</h4>
                                 <h5>Python | HTML | CSS | JSON/REST</h5>
                                 <p>Web app that compares season stats for NFL players</p>
-                                <Button>Read More</Button>
+                                <Link to='FantasyFootball'>
+                                    <Button>Read More</Button>
+                                </Link>
                             </div>
                         </Col>
                     </Row>

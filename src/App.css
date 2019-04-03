@@ -151,7 +151,7 @@ html, body {
 }
 
 .projectDetails p, .projectDetails li {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .projectDetails h3 {
@@ -203,18 +203,29 @@ html, body {
 
 
 
-.bannerAppear-appear {
+.bannerAppearTop-appear {
   opacity: 0.01;
-  transform: translateY(50vh);
+  transform: translateY(-50vh);
 }
 
-.bannerAppear-appear.bannerAppear-appear-active {
+.bannerAppearTop-appear.bannerAppearTop-appear-active {
   opacity: 1;
   transform: translateY(0px);
   transition: all 1s ease-out;
 }
 
-.test-enter {
+.bannerAppearBottom-appear {
+  opacity: 0.01;
+  transform: translateY(50vh);
+}
+
+.bannerAppearBottom-appear.bannerAppearBottom-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 1s ease-out;
+}
+
+/* .test-enter {
   opacity: 0.01;
 }
 
@@ -239,7 +250,7 @@ html, body {
 .test-appear.test-appear-active {
   opacity: 1;
   transition: all 1s ease-out;
-}
+} */
 
 .fadeInOne h1, .fadeInTwo h1 {
   text-align: center;
@@ -274,6 +285,7 @@ html, body {
 }
 
 .fadeInFour {
+  width: 50%;
   margin-top: 6.3vh;
   padding-top: 5vh;
   position: absolute;
@@ -286,6 +298,8 @@ html, body {
 }
 
 .fadeInFour p {
+  text-align: justify;
+  text-justify: inter-word;
   font-size: 22px;
 }
 
