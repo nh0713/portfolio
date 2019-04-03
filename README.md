@@ -4,10 +4,10 @@ My portfolio showcases some of the project I have worked on. There is also a sec
 
 ## Built With ##
 
-Markup : * HTML
-         * CSS
-         * React
-         * Bootstrap
+* HTML
+* CSS
+* React
+* Bootstrap
 
 ## Authors ##
 
