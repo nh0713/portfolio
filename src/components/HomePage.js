@@ -28,7 +28,7 @@ class HomePage extends Component {
                     <ul className="menu">
                         <li><AnchorLink offset={() => 70} href="#home">Home</AnchorLink></li>
                         <Link to='/AboutMe'>
-                            <li><a href="/portfolio/AboutMe">About Me</a></li>
+                            <li>About Me</li>
                         </Link>
                         <li><AnchorLink offset={() => 70} href="#work">Work</AnchorLink></li>
                         <li><AnchorLink offset={() => 70} href="#contact">Contact</AnchorLink></li>

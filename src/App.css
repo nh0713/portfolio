@@ -286,7 +286,25 @@ html, body {
 }
 
 .fadeInFour p {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.fadeInFour .row {
+  position: relative;
+  text-align: center;
+}
+
+.fadeInFour img {
+  width: 40%;
+  height: 40%;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 @keyframes fadeInOut {
@@ -322,7 +340,7 @@ html, body {
   /* background-color: #fff; */
 }
 
-.header li a {
+.header li a, .header a {
   display: block;
   padding: 10px 10px;
   color: white;
@@ -330,6 +348,7 @@ html, body {
 }
 
 .header li a:hover,
+.header a:hover,
 .header .menu-btn:hover {
   color: #C4CED4;
 }
@@ -420,10 +439,10 @@ html, body {
 /* 48em = 768px */
 
 @media (min-width: 48em) {
-  .header li {
+  .header li, .header a{
     float: left;
   }
-  .header li a {
+  .header li a, .header a {
     padding: 20px 30px;
   }
   .header .menu {

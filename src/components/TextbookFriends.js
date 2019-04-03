@@ -9,9 +9,6 @@ import { Link } from 'react-router-dom'
 
 import Footer from './Footer.js'
 
-
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-
 class TextbookFriends extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
@@ -25,17 +22,16 @@ class TextbookFriends extends Component {
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
                         <Link to='/'>
-                            <li><a href="">Home</a></li>
+                            <li>Home</li>
                         </Link>
                         <Link to='/AboutMe'>
-                            {/* <li><a href="/AboutMe">About Me</a></li> */}
-                            <li><a href="">About Me</a></li>
+                            <li>About Me</li>
                         </Link>
                         <Link to='/#work'>
-                            <li><a href="/#work">Work</a></li>
+                            <li>Work</li>
                         </Link>
                         <Link to='/#contact'>
-                            <li><a href="/#contact">Contact</a></li>
+                            <li>Contact</li>
                         </Link>
                     </ul>
                 </header>
