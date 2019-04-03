@@ -44,8 +44,12 @@ class About extends Component {
                         <Link to='/AboutMe'>
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <li><a href="/portfolio/#/#work">Work</a></li>
-                        <li><a href="/portfolio/#/#contact">Contact</a></li>
+                        <Link to='/#work'>
+                            <li><a href="/#work">Work</a></li>
+                        </Link>
+                        <Link to='/#contact'>
+                            <li><a href="/#contact">Contact</a></li>
+                        </Link>
                     </ul>
                 </header>
                 <div className='outerDiv'>
@@ -59,19 +63,6 @@ class About extends Component {
                         <div className='fadeInThree'>
                             <h1>Get to know me!</h1>
                         </div>
-                        {/* <Container fluid className='fadeInFour'>
-                            <Row>
-                                <Col>
-                                    <AnchorLink offset={() => 70} href='#myJourney'><img src={hcde} alt='My Journey' /></AnchorLink>
-                                </Col>
-                                <Col>
-                                    <AnchorLink offset={() => 70} href='#workExperience'><img src={att} alt='Work Experience' /></AnchorLink>
-                                </Col>
-                                <Col>  
-                                    <AnchorLink offset={() => 70} href='#hobbies'><img src={football} alt='Hobbies' /></AnchorLink>
-                                </Col>
-                            </Row>
-                        </Container> */}
                         <div className='fadeInFour'>
                             <Container className='aboutMeContent'>
                                 <h2>My Journey</h2>

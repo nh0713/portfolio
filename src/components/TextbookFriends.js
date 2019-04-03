@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom'
 import Footer from './Footer.js'
 
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 class TextbookFriends extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
@@ -29,8 +31,12 @@ class TextbookFriends extends Component {
                             {/* <li><a href="/AboutMe">About Me</a></li> */}
                             <li><a href="">About Me</a></li>
                         </Link>
-                        <li><a href="/portfolio/#/#work">Work</a></li>
-                        <li><a href="/portfolio/#/#contact">Contact</a></li>
+                        <Link to='/#work'>
+                            <li><a href="/#work">Work</a></li>
+                        </Link>
+                        <Link to='/#contact'>
+                            <li><a href="/#contact">Contact</a></li>
+                        </Link>
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
