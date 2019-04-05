@@ -9,6 +9,10 @@ import Footer from './Footer.js'
 import ImgCarousel from './ImgCarousel.js'
 
 class FantasyFootball extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+      }
+
     render() {
         return (
             <div>

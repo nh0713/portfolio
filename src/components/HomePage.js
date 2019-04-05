@@ -12,6 +12,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'react-router-dom'
 
 import Footer from './Footer.js'
@@ -59,7 +60,9 @@ class HomePage extends Component {
                     </Container>
                 </Container>
                 <Container fluid id='work' className='recentProjects'>
+                    {/* <h2>Current Project: Building and improving my portfolio!</h2> */}
                     <h2>Recent Projects</h2>
+                    {/* <ScrollAnimation animateIn="fadeIn"> */}
                     <Row>
                         <Col lg={6} className='textbookFriendsImage'>
                         <a href="https://nh0713.github.io/hcde498-firstpage/">
@@ -77,6 +80,7 @@ class HomePage extends Component {
                         </div>
                         </Col>
                     </Row>
+                    {/* </ScrollAnimation> */}
                     <Row>
                         <Col lg={6}>
                             <a href='https://github.com/skarahx/grailz'>
