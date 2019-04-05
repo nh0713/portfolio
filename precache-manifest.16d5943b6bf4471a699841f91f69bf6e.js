@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "85affbe9d2e868bd7d23ac7912edd506",
-    "url": "/portfolio/static/media/grailz.85affbe9.png"
+    "revision": "16cee1c24b28926f0cf105333f5f33e8",
+    "url": "/portfolio/static/media/attFriends.16cee1c2.png"
   },
   {
-    "revision": "276fd5f2b1cdb777dd71",
-    "url": "/portfolio/static/css/main.3f69b3f2.chunk.css"
+    "revision": "952d8ebe6b3d8d905a31",
+    "url": "/portfolio/static/css/main.6e73e6f8.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "2f24aef5fbafb2ba805c",
-    "url": "/portfolio/static/js/2.eaeaebde.chunk.js"
+    "revision": "94a68bf4eaf6177e0ab8",
+    "url": "/portfolio/static/js/2.b12f59fd.chunk.js"
   },
   {
     "revision": "be8e489ef8b3933085afa95b53bd0508",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/textbookFriends.483500e1.PNG"
   },
   {
-    "revision": "276fd5f2b1cdb777dd71",
-    "url": "/portfolio/static/js/main.d157d995.chunk.js"
+    "revision": "85affbe9d2e868bd7d23ac7912edd506",
+    "url": "/portfolio/static/media/grailz.85affbe9.png"
   },
   {
-    "revision": "16cee1c24b28926f0cf105333f5f33e8",
-    "url": "/portfolio/static/media/attFriends.16cee1c2.png"
+    "revision": "952d8ebe6b3d8d905a31",
+    "url": "/portfolio/static/js/main.3d6aedf9.chunk.js"
   },
   {
     "revision": "bc1c262ec70e08e53600e429e4883e38",
@@ -60,7 +60,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ftl.f58dda45.jpg"
   },
   {
-    "revision": "2af68c7b4043eece36ce84b381c8281e",
+    "revision": "4ed5d60770b399c4295828677b895bd4",
+    "url": "/portfolio/static/media/FantasyFootballFilledOut.4ed5d607.PNG"
+  },
+  {
+    "revision": "bb019103a50c05c64b11554f8c35268d",
+    "url": "/portfolio/static/media/results1.bb019103.png"
+  },
+  {
+    "revision": "ac8b73c7e314d0f18b7447f4f8f23ad9",
+    "url": "/portfolio/static/media/FantasyFootballResults2.ac8b73c7.png"
+  },
+  {
+    "revision": "a67340c95fa6593bc257aec69067791a",
     "url": "/portfolio/index.html"
   }
 ];
