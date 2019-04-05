@@ -32,8 +32,11 @@ class AttFriends extends Component {
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
-                    <h2>Background</h2>
-                    <h2>Purpose</h2>
+                    <Container className='projectDetails'>
+                        <h2>Background</h2>
+                        <p>Content</p>
+                        <h2>Purpose</h2>
+                    </Container>
                 </Container>
             </div>
         );

@@ -1,6 +1,6 @@
 # Portfolio #
 
-My portfolio showcases some of the project I have worked on. There is also a section for people to contact me and additional details about myself and my intersts.
+My portfolio showcases some of the projects I have worked on. There is also a section for people to contact me and additional details about myself and my intersts. 
 
 ## Built With ##
 
@@ -9,6 +9,6 @@ My portfolio showcases some of the project I have worked on. There is also a sec
 * React
 * Bootstrap
 
-## Authors ##
+## Author ##
 
 Nathan Han

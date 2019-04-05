@@ -56,7 +56,7 @@ class About extends Component {
                             <h1>Hi! My name is Nathan</h1>
                         </div>
                         <div className='fadeInTwo'>
-                            <h1>I am intersted in Front-End Development and UX Design</h1>
+                            <h1>I am interested in Front-End Development and UX Design</h1>
                         </div>
                         <div className='fadeInThree'>
                             <h1>Get to know me!</h1>

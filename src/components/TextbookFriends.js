@@ -56,9 +56,18 @@ class TextbookFriends extends Component {
 
                         <ABTesting />
                         <WhatILearned />
-                        <a href='https://nh0713.github.io/hcde498-firstpage/'>
-                            <Button>Try Textbook Friends</Button>
-                        </a>
+                        <Row className="btnHiFiRow">
+                            <Col>
+                                <a href='https://nh0713.github.io/hcde498-firstpage/'>
+                                    <Button>Try Textbook Friends</Button>
+                                </a>
+                            </Col>
+                            <Col>
+                                <a href='https://github.com/nh0713/hcde498-firstpage'>
+                                    <Button>View the code</Button>
+                                </a>
+                            </Col>
+                        </Row>
                     </Container>
                     <Footer />
                 </Container>

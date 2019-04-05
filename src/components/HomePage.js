@@ -88,9 +88,9 @@ class HomePage extends Component {
                             <h4>Grailz</h4>
                             <h5>Swift | REST/JSON</h5>
                             <p>App that displays upcoming sneaker release dates and details.</p>
-                            <Link to='/Grailz'>
-                                <Button>Read More</Button>
-                            </Link>
+                            {/* <Link to='/Grailz'> */}
+                                <Button className='comingSoon'>Coming Soon</Button>
+                            {/* </Link> */}
                         </div>
                         </Col>
                     </Row>
@@ -104,10 +104,10 @@ class HomePage extends Component {
                             <div className='details'>
                                 <h4>AT&T Friends</h4>
                                 <h5>Invision | Adobe Illustrator | Product Management | Teamwork</h5>
-                                <p>Prototype app designed assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
-                                <Link to='/AttFriends'>
-                                    <Button>Read More</Button>
-                                </Link>
+                                <p>One of the projects I was responsible for during my internship at AT&T as a Technical Product Manager. AT&T Friends is a Prototype app designed to assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
+                                {/* <Link to='/AttFriends'> */}
+                                    <Button className='comingSoon'>Coming Soon</Button>
+                                {/* </Link> */}
                             </div>
                         </Col>
                     </Row>
@@ -119,7 +119,7 @@ class HomePage extends Component {
                             <div className='details'>
                                 <h4>Shredderz</h4>
                                 <h5>User Research | UX Design | Teamwork</h5>
-                                <p>Prototype app designed to assist snowboarders improve their skills and share their progress</p>
+                                <p>Prototype app designed to assist snowboarders improve their skills and share their progress.</p>
                                 <Button href='https://shredderz.wixsite.com/hcdeshredderz'>Read More</Button>
                             </div>
                         </Col>
@@ -131,8 +131,8 @@ class HomePage extends Component {
                         <Col lg={6}>
                             <div className='details'>
                                 <h4>Fantasy Football Player Comparison Tool</h4>
-                                <h5>Python | HTML | CSS | JSON/REST</h5>
-                                <p>Web app that compares season stats for NFL players</p>
+                                <h5>Python | HTML | CSS | REST/JSON</h5>
+                                <p>Web app that compares season stats of NFL players for Fantasy Football.</p>
                                 <Link to='FantasyFootball'>
                                     <Button>Read More</Button>
                                 </Link>

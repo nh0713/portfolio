@@ -200,6 +200,12 @@ html, body {
   margin: auto;
 }
 
+.comingSoon {
+  background-color: lightgray;
+  border-style: none;
+  color: black;
+}
+
 
 
 
@@ -294,7 +300,7 @@ html, body {
 }
 
 .fadeInFour p {
-  width: 70%;
+  width: 85%;
   margin: auto;
   margin-bottom: 3%;
 }
@@ -339,6 +345,14 @@ html, body {
   100% { opacity:1;}
 }
 
+
+.carouselContainer img {
+  width: 100%;
+}
+
+.carouselContainer h3 {
+  color: black;
+}
 
 
 

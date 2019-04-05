@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import wireframes from '../images/wireframes.png';
-import affinityDiagram from '../images/affinity.jpg';
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import { Link } from 'react-router-dom'
 
 import Footer from './Footer.js'
+import ImgCarousel from './ImgCarousel.js'
 
 class FantasyFootball extends Component {
     render() {
@@ -32,8 +31,13 @@ class FantasyFootball extends Component {
                     </ul>
                 </header>
                 <Container fluid className="outerContainer">
-                    <h2>Background</h2>
-                    <h2>Purpose</h2>
+                    <Container className='projectDetails'>
+                        <h2>Purpose</h2>
+                        <p>I created this web application as a final project for a class. The purpose of this web application was to allow people to compare stats of NFL players for Fantasy Football. Users can compare two different players and can filter both on a specific week or stat. It pulled JSON data from an API, however, the API is no longer free. As a result, the comparison functino no longer works.</p>
+                        <h2>What I learned</h2>
+                        <p></p>
+                    </Container>
+                    <ImgCarousel />
                 </Container>
             </div>
         );
