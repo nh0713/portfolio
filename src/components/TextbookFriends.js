@@ -3,7 +3,7 @@ import '../App.css';
 
 import wireframes from '../images/wireframes.png';
 import affinityDiagram from '../images/affinity.jpg';
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Tabs, Tab, Nav } from "react-bootstrap";
 
 import { Link } from 'react-router-dom'
 
@@ -59,12 +59,12 @@ class TextbookFriends extends Component {
                         <Row className="btnHiFiRow">
                             <Col>
                                 <a href='https://nh0713.github.io/hcde498-firstpage/'>
-                                    <Button>Try Textbook Friends</Button>
+                                    <Button>Live Version</Button>
                                 </a>
                             </Col>
                             <Col>
                                 <a href='https://github.com/nh0713/hcde498-firstpage'>
-                                    <Button>View the code</Button>
+                                    <Button>View code</Button>
                                 </a>
                             </Col>
                         </Row>
@@ -112,103 +112,115 @@ class CompetitiveAnalysis extends Component {
     render() {
         return (
             <div>
-                <div className='compAnalyzed'>
-                    <h2>Competitive Analysis</h2>
-                    <h3>
-                        Facebook Group (UW textbook Exchange)
-                    </h3>
-                    <ul>
-                        <h5>Pros</h5>
-                        <li>
-                            Able to contact the seller through messenger
-                        </li>
-                        <li>
-                            Able to make transactions right on facebook
-                        </li>
-                        <li>
-                            Item posting has price and pictures for buyers to see
-                        </li>
-                    </ul>
-                    <ul>
-                        <h5>Cons</h5>
-                        <li>
-                            There are posts that are unrelated to textbooks such as tutoring jobs and lost item postings
-                        </li>
-                        <li>
-                            Unorganized, users have to scroll down endlessly without knowing what they will find
-                        </li>
-                        <li>
-                            Lack of search options
-                        </li>
-                    </ul>
-                    <ul>
-                        <h5>What Textbook Friends improves</h5>
-                        <li>
-                            Provides organized and quick way of finding the textbook of interest
-                        </li>
-                        <li>
-                            <strong>Stretch Goal (in development):</strong> Buyers will be notified when the textbook they want, is posted
-                        </li>
-                    </ul>
-                </div>
-                <div className='compAnalyzed'>
-                    <h3>
-                        University Bookstore
-                    </h3>
-                    <ul>
-                        <h5>Pros</h5>
-                        <li>Books are categorized into specific classes within the school</li>
-                    </ul>
-                    <ul>
-                        <h5>Cons</h5>
-                        <li>Even the used textbooks are expensive for college students</li>
-                        <li>Buys back used textbooks at a very low price point</li>
-                        <li>Long lines</li>
-                    </ul>
-                    <ul>
-                    <h5>What Textbook Friends improves</h5>
-                        <li>Student to student exchange will lower the price for buyers</li>
-                        <li>Student will gain more profit from selling textbooks to another student rather than the bookstore</li>
-                    </ul>
-                </div>
-                <div className='compAnalyzed'>
-                    <h3>Textbook.com</h3>
-                    <ul>
-                    <h5>Pros</h5>
-                        <li>Allows online transactions and all items are shipped through UPS</li>
-                        <li>Gives option to buy e-books</li>
-                    </ul>
-                    <ul>
-                        <h5>Cons</h5>
-                        <li>
-                            Users do not get to see the actual condition of the book until they receive the book in person
-                        </li>
-                        <li>Higher prices</li>
-                    </ul>
-                    <ul>
-                        <h5>What Textbook Friends improves</h5>
-                        <li>To sell a textbook, users must post the condition of the textbook as well as a photo</li>
-                    </ul>
-                </div>
-                <div className='compAnalyzed'>
-                    <h3>Amazon</h3>
-                    <ul>
-                        <h5>Pros</h5>
-                        <li>Reliable</li>
-                        <li>Has reviews of the book</li>
-                        <li>Quick and easy purchasing experience</li>
-                        <li>Allows refunds when delivery goes wrong or if the book is returned</li>
-                    </ul>
-                    <ul>
-                        <h5>Cons</h5>
-                        <li>Higher prices</li>
-                        <li>Shipping takes a few days and may cost extra</li>
-                    </ul>
-                    <ul>
-                        <h5>What Textbook Friends improves</h5>
-                        <li>Textbook Friends allows local transactions and hand-off which eliminates shipping fees</li>
-                        <li>Recieve textbooks in the same day</li>
-                    </ul>
+                <h2>Competitive Analysis</h2>
+                <div className='tabsContainer'>
+                    <Tabs defaultActiveKey="facebookGroup" >
+                        <Tab eventKey="facebookGroup" title="Facebook Group">
+                            <div className='compAnalyzed'>
+                                <h3>
+                                    Facebook Group (UW textbook Exchange)
+                                </h3>
+                                <ul>
+                                    <h5>Pros</h5>
+                                    <li>
+                                        Able to contact the seller through messenger
+                                    </li>
+                                    <li>
+                                        Able to make transactions right on facebook
+                                    </li>
+                                    <li>
+                                        Item posting has price and pictures for buyers to see
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <h5>Cons</h5>
+                                    <li>
+                                        There are posts that are unrelated to textbooks such as tutoring jobs and lost item postings
+                                    </li>
+                                    <li>
+                                        Unorganized, users have to scroll down endlessly without knowing what they will find
+                                    </li>
+                                    <li>
+                                        Lack of search options
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <h5>What Textbook Friends improves</h5>
+                                    <li>
+                                        Provides organized and quick way of finding the textbook of interest
+                                    </li>
+                                    <li>
+                                        <strong>Stretch Goal (in development):</strong> Buyers will be notified when the textbook they want, is posted
+                                    </li>
+                                </ul>
+                            </div>
+                        </Tab>
+                        <Tab eventKey="universityBookstore" title="Uniersity Bookstore">
+                            <div className='compAnalyzed'>
+                                <h3>
+                                    University Bookstore
+                                </h3>
+                                <ul>
+                                    <h5>Pros</h5>
+                                    <li>Books are categorized into specific classes within the school</li>
+                                </ul>
+                                <ul>
+                                    <h5>Cons</h5>
+                                    <li>Even the used textbooks are expensive for college students</li>
+                                    <li>Buys back used textbooks at a very low price point</li>
+                                    <li>Long lines</li>
+                                </ul>
+                                <ul>
+                                <h5>What Textbook Friends improves</h5>
+                                    <li>Student to student exchange will lower the price for buyers</li>
+                                    <li>Student will gain more profit from selling textbooks to another student rather than the bookstore</li>
+                                </ul>
+                            </div>
+                        </Tab>
+                        <Tab eventKey="textbookcom" title="Textbook.com">
+                            <div className='compAnalyzed'>
+                                <h3>Textbook.com</h3>
+                                <ul>
+                                <h5>Pros</h5>
+                                    <li>Allows online transactions and all items are shipped through UPS</li>
+                                    <li>Gives option to buy e-books</li>
+                                </ul>
+                                <ul>
+                                    <h5>Cons</h5>
+                                    <li>
+                                        Users do not get to see the actual condition of the book until they receive the book in person
+                                    </li>
+                                    <li>Higher prices</li>
+                                </ul>
+                                <ul>
+                                    <h5>What Textbook Friends improves</h5>
+                                    <li>To sell a textbook, users must post the condition of the textbook as well as a photo</li>
+                                </ul>
+                            </div>
+                        </Tab>
+                        <Tab eventKey="amazon" title="Amazon">
+                            <div className='compAnalyzed'>
+                                <h3>Amazon</h3>
+                                <ul>
+                                    <h5>Pros</h5>
+                                    <li>Reliable</li>
+                                    <li>Has reviews of the book</li>
+                                    <li>Quick and easy purchasing experience</li>
+                                    <li>Allows refunds when delivery goes wrong or if the book is returned</li>
+                                </ul>
+                                <ul>
+                                    <h5>Cons</h5>
+                                    <li>Higher prices</li>
+                                    <li>Shipping takes a few days and may cost extra</li>
+                                </ul>
+                                <ul>
+                                    <h5>What Textbook Friends improves</h5>
+                                    <li>Textbook Friends allows local transactions and hand-off which eliminates shipping fees</li>
+                                    <li>Recieve textbooks in the same day</li>
+                                </ul>
+                            </div>
+                        </Tab>
+                    </Tabs>
                 </div>
             </div>
         );
@@ -287,7 +299,7 @@ class WhatILearned extends Component {
         return (
             <div>
                 <h2>What I learned</h2>
-                <p>In order to allow user authentication and for users to post and search for textbooks, I had to learn Firebase on my own. It was not as difficult as I thought it would be, mostly because there are so many resources on the internet. Secondly, this was the first project where I was able to integrate both my UX background with my technical experience. I got to experiece what it was like to conduct User Research, and then actually develop a functiong tool that addressed my findings.</p>
+                <p>In order to allow user authentication and for users to post and search for textbooks, I had to learn Firebase entirely on my own. It was not as difficult as I thought it would be, mostly because there are so many resources on the internet. Secondly, this was the first project where I was able to integrate both my UX background with my technical experience. I got to experiece what it was like to conduct User Research, and then actually develop a functiong tool that addressed my findings.</p>
             </div>
         );
     }

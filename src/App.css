@@ -195,6 +195,18 @@ html, body {
   margin-top: 5%;
 }
 
+.tabsContainer {
+  border: .2rem solid #ececec;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.tabsContainer a{
+  font-size: 20px;
+  font-weight: 900;
+  color: #005C5C;
+}
+
 .btnHiFiRow {
   width: 50%;
   margin: auto;
