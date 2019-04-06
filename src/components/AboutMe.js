@@ -11,6 +11,13 @@ import att from '../images/att.png';
 import cwk from '../images/cwk.png';
 import ftl from '../images/ftl.jpg';
 
+import sports from '../images/basketball.jpg';
+import stickShift from '../images/stickShift.jpg';
+import videoGames from '../images/videoGames.jpg';
+import code from '../images/code.jpg';
+
+
+
 
 class About extends Component {
     constructor(props) {
@@ -72,20 +79,41 @@ class About extends Component {
                                 <div>
                                     <h2>Work Experience</h2>
                                     <div className='companies'>
-                                    <img src={att} alt='AT&T'></img>
+                                        {/* <img src={att} alt='AT&T'></img>
                                         <img src={cwk} alt='Coding with Kids'></img>
-                                        <img src={ftl} alt='Foot Locker'></img>
-                                        {/* <h3>AT&T</h3> */}
-                                        {/* <h3>Coding with Kids</h3> */}
-                                        {/* <h3>Foot Locker</h3> */}
+                                        <img src={ftl} alt='Foot Locker'></img> */}
+                                        <h3>AT&T</h3>
+                                        <h3>Coding with Kids</h3>
+                                        <h3>Foot Locker</h3>
                                     </div>
-                                </div>
-                                
+                                </div>  
                                 <h2>Hobbies</h2>
-                                <h3>Sports</h3>
-                                <h3>Cars</h3>
-                                <h3>Video Games</h3>
-                                <h3>...and of course Coding</h3>
+                                <Container className='hobbiesContainer'>
+                                    <div className='imgContainer'>
+                                        <img src={sports} alt='Sports'></img>
+                                        <div className='middle'>
+                                            <div className='text'>I like to play all kinds of sports! Recently, I participated in a Flag Football League.</div>
+                                        </div>
+                                    </div>
+                                    <div className='imgContainer'>
+                                        <img src={stickShift} alt='Stick Shift'></img>
+                                        <div className='middle'>
+                                            <div className='text'>I recently learned how to drive manual...Now I'm obsessed with cars.</div>
+                                        </div>
+                                    </div>
+                                    <div className='imgContainer'>
+                                        <img src={videoGames} alt='Video Games'></img>
+                                        <div className='middle'>
+                                            <div className='text'>Currently, I play a lot of Apex Legends and Fortnite. But I love all games!</div>
+                                        </div>
+                                    </div>
+                                    <div className='imgContainer'>
+                                        <img src={code} alt='Code'></img>
+                                        <div className='middle'>
+                                            <div className='text'>I actively pursue opportunities to improve my skills.</div>
+                                        </div>
+                                    </div>
+                                </Container>
                             </Container>
                             <Footer />
                         </div>

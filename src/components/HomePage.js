@@ -144,7 +144,6 @@ class HomePage extends Component {
                         </Col>
                     </Row>
                 </Container>
-                {/* <CarouselHomePage /> */}
                 <Container fluid id='contact' className='contact'>
                     <h2>
                         Contact Me

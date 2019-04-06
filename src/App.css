@@ -220,6 +220,58 @@ html, body {
 
 
 
+.hobbiesContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgContainer {
+  position: relative;
+}
+
+.imgContainer img{
+  width: 100%;
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+}
+
+.imgContainer:hover img {
+  opacity: 0.3;
+}
+
+.imgContainer:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  -webkit-transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text {
+  background-color: #005C5C;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
 
 .bannerAppearTop-appear {
   opacity: 0.01;
@@ -242,33 +294,6 @@ html, body {
   transform: translateY(0px);
   transition: all 1s ease-out;
 }
-
-/* .test-enter {
-  opacity: 0.01;
-}
-
-.test-enter.test-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.test-leave {
-  opacity: 1;
-}
-
-.test-leave.test-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
-}
-
-.test-appear {
-  opacity: 0.01;
-}
-
-.test-appear.test-appear-active {
-  opacity: 1;
-  transition: all 1s ease-out;
-} */
 
 .fadeInOne h1, .fadeInTwo h1 {
   text-align: center;
@@ -331,11 +356,6 @@ html, body {
 .fadeInFour .row {
   position: relative;
   text-align: center;
-}
-
-.fadeInFour img {
-  width: 40%;
-  height: 40%;
 }
 
 .companies {
@@ -499,6 +519,9 @@ html, body {
   }
   .header .menu-icon {
     display: none;
+  }
+  .imgContainer {
+    width: 50%;
   }
 
 }
