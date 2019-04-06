@@ -33,6 +33,9 @@ class HomePage extends Component {
                         </Link>
                         <li><AnchorLink offset={() => 70} href="#work">Work</AnchorLink></li>
                         <li><AnchorLink offset={() => 70} href="#contact">Contact</AnchorLink></li>
+                        <Link to='/Resume'>
+                            <li>Resume</li>
+                        </Link>
                     </ul>
                 </header>
                 <Container fluid id='home' className='imgBanner'> 

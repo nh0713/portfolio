@@ -10,7 +10,6 @@ import Grailz from './components/Grailz';
 import AttFriends from './components/AttFriends';
 import FantasyFootball from './components/FantasyFootball';
 
-
 class App extends Component {
   componentDidMount() {
     // Decode entities in the URL
