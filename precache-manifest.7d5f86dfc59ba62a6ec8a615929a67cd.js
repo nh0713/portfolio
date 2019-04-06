@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7fcb30ee1b75372a81cfd151fb705d57",
-    "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
+    "revision": "209c6083bfd890b4d0737ea9be042afb",
+    "url": "/portfolio/static/media/basketball.209c6083.jpg"
   },
   {
-    "revision": "19fa363650b4895967b7",
-    "url": "/portfolio/static/css/main.bc9c9ba6.chunk.css"
+    "revision": "8bfde0532e1908fec56d",
+    "url": "/portfolio/static/css/main.6a5bccec.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "bdd3dc331dcc3bf39c24",
-    "url": "/portfolio/static/js/2.0ec80690.chunk.js"
+    "revision": "327348500b64b05205ed",
+    "url": "/portfolio/static/js/2.42dd4037.chunk.js"
   },
   {
     "revision": "be8e489ef8b3933085afa95b53bd0508",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/shredderz.bc1c262e.png"
   },
   {
-    "revision": "19fa363650b4895967b7",
-    "url": "/portfolio/static/js/main.f9654f19.chunk.js"
+    "revision": "7fcb30ee1b75372a81cfd151fb705d57",
+    "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
   },
   {
-    "revision": "209c6083bfd890b4d0737ea9be042afb",
-    "url": "/portfolio/static/media/basketball.209c6083.jpg"
+    "revision": "8bfde0532e1908fec56d",
+    "url": "/portfolio/static/js/main.7e46057e.chunk.js"
   },
   {
     "revision": "fde0f6729f8944e1cb30921e73536a8b",
@@ -88,7 +88,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ftl.f58dda45.jpg"
   },
   {
-    "revision": "72bb2804ddcb37a5bec32304ce6c30d1",
+    "revision": "5fb120b4e4eff0abc2bb0aa58949290b",
+    "url": "/portfolio/static/media/resume.5fb120b4.png"
+  },
+  {
+    "revision": "eb4275656406f55c8add07a5fe0be79f",
     "url": "/portfolio/index.html"
   }
 ];
