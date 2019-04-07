@@ -1,31 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "bc1c262ec70e08e53600e429e4883e38",
-    "url": "/portfolio/static/media/shredderz.bc1c262e.png"
+    "revision": "5140ca0ba4a8f9917e9dcc1cfefd5ea8",
+    "url": "/portfolio/static/media/basketball.5140ca0b.jpg"
   },
   {
-    "revision": "74a6b40f76236c96ba5c",
-    "url": "/portfolio/static/css/main.f4cdb077.chunk.css"
+    "revision": "f41ea407ab4f23ce5dcb",
+    "url": "/portfolio/static/css/main.4d89bdeb.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "373401788ea4ca998d59",
-    "url": "/portfolio/static/js/2.e0308497.chunk.js"
+    "revision": "9cc905eb04eafd2a7202",
+    "url": "/portfolio/static/js/2.b1b640df.chunk.js"
   },
   {
     "revision": "be8e489ef8b3933085afa95b53bd0508",
     "url": "/portfolio/static/media/seattle-min-resized.be8e489e.png"
-  },
-  {
-    "revision": "a4ca1dfa2a562fabb4fb3cf943ffb213",
-    "url": "/portfolio/static/media/wireframes.a4ca1dfa.png"
-  },
-  {
-    "revision": "874c29333798f1c61f4f63c033269b97",
-    "url": "/portfolio/static/media/affinity.874c2933.jpg"
   },
   {
     "revision": "483500e187e3d6aca19178fc332d001b",
@@ -40,16 +32,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/attFriends.16cee1c2.png"
   },
   {
-    "revision": "74a6b40f76236c96ba5c",
-    "url": "/portfolio/static/js/main.2689e441.chunk.js"
+    "revision": "bc1c262ec70e08e53600e429e4883e38",
+    "url": "/portfolio/static/media/shredderz.bc1c262e.png"
   },
   {
     "revision": "7fcb30ee1b75372a81cfd151fb705d57",
     "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
   },
   {
-    "revision": "5140ca0ba4a8f9917e9dcc1cfefd5ea8",
-    "url": "/portfolio/static/media/basketball.5140ca0b.jpg"
+    "revision": "f41ea407ab4f23ce5dcb",
+    "url": "/portfolio/static/js/main.2fb4395e.chunk.js"
   },
   {
     "revision": "478b2da5ac73a24c3e820b8c3eaf1728",
@@ -62,6 +54,14 @@ self.__precacheManifest = [
   {
     "revision": "58881174f379868d5edd2772ad000265",
     "url": "/portfolio/static/media/code.58881174.jpg"
+  },
+  {
+    "revision": "a4ca1dfa2a562fabb4fb3cf943ffb213",
+    "url": "/portfolio/static/media/wireframes.a4ca1dfa.png"
+  },
+  {
+    "revision": "874c29333798f1c61f4f63c033269b97",
+    "url": "/portfolio/static/media/affinity.874c2933.jpg"
   },
   {
     "revision": "2244012dea36222150e17a1448bb96e6",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.5fb120b4.png"
   },
   {
-    "revision": "f22c35fba0f86bc5c86f202d5164fd6d",
+    "revision": "5c648737ab7b85188d9ca78284aee1d8",
     "url": "/portfolio/index.html"
   }
 ];
