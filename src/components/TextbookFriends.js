@@ -299,7 +299,7 @@ class WhatILearned extends Component {
         return (
             <div>
                 <h2>What I learned</h2>
-                <p>In order to allow user authentication and for users to post and search for textbooks, I had to learn Firebase entirely on my own. It was not as difficult as I thought it would be, mostly because there are so many resources on the internet. Secondly, this was the first project where I was able to integrate both my UX background with my technical experience. I got to experiece what it was like to conduct User Research, and then actually develop a functiong tool that addressed my findings.</p>
+                <p>In order to allow user authentication and for users to post and search for textbooks, I had to learn Firebase entirely on my own. It was not as difficult as I thought it would be, mostly because there are so many resources on the Internet. Secondly, this was the first project where I was able to integrate both my UX background with my technical experience. I got to experiece what it was like to conduct User Research, and then actually develop a functiong tool that addressed my findings.</p>
             </div>
         );
     }

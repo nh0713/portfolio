@@ -7,14 +7,10 @@ import Footer from './Footer.js'
 
 import { Link } from 'react-router-dom'
 
-import att from '../images/att.png';
-import cwk from '../images/cwk.png';
-import ftl from '../images/ftl.jpg';
-
-import sports from '../images/basketball.jpg';
-import stickShift from '../images/stickShift.jpg';
-import videoGames from '../images/videoGames.jpg';
-import code from '../images/code.jpg';
+import sports from '../images/basketball-min.jpg';
+import stickShift from '../images/stickShift-min.jpg';
+import videoGames from '../images/videoGames-min.jpg';
+import code from '../images/code-min.jpg';
 import resume from '../images/resume.png';
 
 
