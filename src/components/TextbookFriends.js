@@ -3,7 +3,7 @@ import '../App.css';
 
 import wireframes from '../images/wireframes.png';
 import affinityDiagram from '../images/affinity.jpg';
-import { Container, Row, Col, Button, Tabs, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Button, Tabs, Tab } from "react-bootstrap";
 
 import { Link } from 'react-router-dom'
 

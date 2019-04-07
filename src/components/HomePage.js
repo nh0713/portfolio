@@ -100,6 +100,21 @@ class HomePage extends Component {
                     </Row>
                     <Row>
                         <Col lg={6}>
+                            <img src={HomeFantasyFootball} alt="Fantasy Football Player Comparison Tool Home Screenshot" className='textbookFriendsImage'></img>
+                        </Col>
+                        <Col lg={6}>
+                            <div className='details'>
+                                <h4>Fantasy Football Player Comparison Tool</h4>
+                                <h5>Python | HTML | CSS | REST/JSON</h5>
+                                <p>Web app that compares season stats of NFL players for Fantasy Football.</p>
+                                <Link to='FantasyFootball'>
+                                    <Button>Read More</Button>
+                                </Link>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col lg={6}>
                             <a href='https://invis.io/3UMZBWMMR8D'>
                                 <img src={attFriends} alt="AT&T Friends"></img>
                             </a>
@@ -108,7 +123,7 @@ class HomePage extends Component {
                             <div className='details'>
                                 <h4>AT&T Friends</h4>
                                 <h5>Invision | Adobe Illustrator | Product Management | Teamwork</h5>
-                                <p>One of the projects I was responsible for during my internship at AT&T as a Technical Product Manager. AT&T Friends is a Prototype app designed to assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
+                                <p>AT&T Friends is a Prototype app designed to assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
                                 {/* <Link to='/AttFriends'> */}
                                     <Button className='comingSoon'>Coming Soon</Button>
                                 {/* </Link> */}
@@ -125,21 +140,6 @@ class HomePage extends Component {
                                 <h5>User Research | UX Design | Teamwork</h5>
                                 <p>Prototype app designed to assist snowboarders improve their skills and share their progress.</p>
                                 <Button href='https://shredderz.wixsite.com/hcdeshredderz'>Read More</Button>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={6}>
-                            <img src={HomeFantasyFootball} alt="Fantasy Football Player Comparison Tool Home Screenshot" className='textbookFriendsImage'></img>
-                        </Col>
-                        <Col lg={6}>
-                            <div className='details'>
-                                <h4>Fantasy Football Player Comparison Tool</h4>
-                                <h5>Python | HTML | CSS | REST/JSON</h5>
-                                <p>Web app that compares season stats of NFL players for Fantasy Football.</p>
-                                <Link to='FantasyFootball'>
-                                    <Button>Read More</Button>
-                                </Link>
                             </div>
                         </Col>
                     </Row>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import { Container, Row, Col, Button, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import Footer from './Footer.js'
 
@@ -67,7 +67,7 @@ class About extends Component {
                             <Container>
                                 <div>
                                     <h2>My Journey</h2>
-                                    <p>My first project in Web Development, was a simple fantasy football player comparison web app. It pulled data from an open API and allowed users to compare the stats of current NFL players. Because this was my first project in Front-End Development, both the functionality and design are very simple. For my next project, I created a much more complicated website. It is called Textbook Friends and it allows college students to buy and sell their unused textbooks locally. For this project, I developed both the Front-End, and the Back-End. For the Back-End, I had to learn Firebase entirely on my own. My next and current project is building and improving my own portfolio. I am excited to learn more about Front-End Development, and I look forward to new opportunities where I can apply my skills.</p>
+                                    <p>My first project in Front-End Development, was a simple fantasy football player comparison web app. It pulled data from an open API and allowed users to compare the stats of current NFL players. Because this was my first project in Front-End Development, both the functionality and design are very simple. For my next project, I created a much more complicated website. It is called Textbook Friends and it allows college students to buy and sell their unused textbooks locally. For this project, I developed both the Front-End, and the Back-End. For the Back-End, I had to learn Firebase entirely on my own. My next and current project is building and improving my own portfolio. I am excited to learn more about Front-End Development, and I look forward to new opportunities where I can apply my skills.</p>
                                 </div>
                                 <h2>Hobbies</h2>
                                 <Container className='hobbiesContainer'>
