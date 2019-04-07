@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "209c6083bfd890b4d0737ea9be042afb",
-    "url": "/portfolio/static/media/basketball.209c6083.jpg"
+    "revision": "bc1c262ec70e08e53600e429e4883e38",
+    "url": "/portfolio/static/media/shredderz.bc1c262e.png"
   },
   {
-    "revision": "2ada5a2e7cbf29a97bbf",
-    "url": "/portfolio/static/css/main.6a5bccec.chunk.css"
+    "revision": "e017d7e8c8e08363841f",
+    "url": "/portfolio/static/css/main.f4cdb077.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "327348500b64b05205ed",
-    "url": "/portfolio/static/js/2.42dd4037.chunk.js"
+    "revision": "373401788ea4ca998d59",
+    "url": "/portfolio/static/js/2.e0308497.chunk.js"
   },
   {
     "revision": "be8e489ef8b3933085afa95b53bd0508",
@@ -40,28 +40,28 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/attFriends.16cee1c2.png"
   },
   {
-    "revision": "bc1c262ec70e08e53600e429e4883e38",
-    "url": "/portfolio/static/media/shredderz.bc1c262e.png"
+    "revision": "e017d7e8c8e08363841f",
+    "url": "/portfolio/static/js/main.249108f4.chunk.js"
   },
   {
     "revision": "7fcb30ee1b75372a81cfd151fb705d57",
     "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
   },
   {
-    "revision": "2ada5a2e7cbf29a97bbf",
-    "url": "/portfolio/static/js/main.0a08eab1.chunk.js"
+    "revision": "5140ca0ba4a8f9917e9dcc1cfefd5ea8",
+    "url": "/portfolio/static/media/basketball-min.5140ca0b.jpg"
   },
   {
-    "revision": "fde0f6729f8944e1cb30921e73536a8b",
-    "url": "/portfolio/static/media/stickShift.fde0f672.jpg"
+    "revision": "478b2da5ac73a24c3e820b8c3eaf1728",
+    "url": "/portfolio/static/media/stickShift-min.478b2da5.jpg"
   },
   {
-    "revision": "434a7f998c66c53fa42471f0d84ebaae",
-    "url": "/portfolio/static/media/videoGames.434a7f99.jpg"
+    "revision": "05d1b8a96537edc4fab54f8bcf4a1a5d",
+    "url": "/portfolio/static/media/videoGames-min.05d1b8a9.jpg"
   },
   {
-    "revision": "a1f31faea14c7e96931ff44cbc8fd140",
-    "url": "/portfolio/static/media/code.a1f31fae.jpg"
+    "revision": "58881174f379868d5edd2772ad000265",
+    "url": "/portfolio/static/media/code-min.58881174.jpg"
   },
   {
     "revision": "2244012dea36222150e17a1448bb96e6",
@@ -76,23 +76,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/FantasyFootballResults2.ac8b73c7.png"
   },
   {
-    "revision": "374d0d3ef213b086097bddc9822a7f64",
-    "url": "/portfolio/static/media/att.374d0d3e.png"
-  },
-  {
-    "revision": "ed2a4fc19d5bb5504a8712d5d10b9995",
-    "url": "/portfolio/static/media/cwk.ed2a4fc1.png"
-  },
-  {
-    "revision": "f58dda45e1fd910491b884c5d579513c",
-    "url": "/portfolio/static/media/ftl.f58dda45.jpg"
-  },
-  {
     "revision": "5fb120b4e4eff0abc2bb0aa58949290b",
     "url": "/portfolio/static/media/resume.5fb120b4.png"
   },
   {
-    "revision": "33d81a99547ac0d560416bce145435bf",
+    "revision": "eb00c17ad70b3cba44758cd8d4afdc4b",
     "url": "/portfolio/index.html"
   }
 ];
