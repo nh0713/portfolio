@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/shredderz.bc1c262e.png"
   },
   {
-    "revision": "e017d7e8c8e08363841f",
+    "revision": "74a6b40f76236c96ba5c",
     "url": "/portfolio/static/css/main.f4cdb077.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/attFriends.16cee1c2.png"
   },
   {
-    "revision": "e017d7e8c8e08363841f",
-    "url": "/portfolio/static/js/main.249108f4.chunk.js"
+    "revision": "74a6b40f76236c96ba5c",
+    "url": "/portfolio/static/js/main.2689e441.chunk.js"
   },
   {
     "revision": "7fcb30ee1b75372a81cfd151fb705d57",
@@ -49,19 +49,19 @@ self.__precacheManifest = [
   },
   {
     "revision": "5140ca0ba4a8f9917e9dcc1cfefd5ea8",
-    "url": "/portfolio/static/media/basketball-min.5140ca0b.jpg"
+    "url": "/portfolio/static/media/basketball.5140ca0b.jpg"
   },
   {
     "revision": "478b2da5ac73a24c3e820b8c3eaf1728",
-    "url": "/portfolio/static/media/stickShift-min.478b2da5.jpg"
+    "url": "/portfolio/static/media/stickShift.478b2da5.jpg"
   },
   {
     "revision": "05d1b8a96537edc4fab54f8bcf4a1a5d",
-    "url": "/portfolio/static/media/videoGames-min.05d1b8a9.jpg"
+    "url": "/portfolio/static/media/videoGames.05d1b8a9.jpg"
   },
   {
     "revision": "58881174f379868d5edd2772ad000265",
-    "url": "/portfolio/static/media/code-min.58881174.jpg"
+    "url": "/portfolio/static/media/code.58881174.jpg"
   },
   {
     "revision": "2244012dea36222150e17a1448bb96e6",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.5fb120b4.png"
   },
   {
-    "revision": "eb00c17ad70b3cba44758cd8d4afdc4b",
+    "revision": "f22c35fba0f86bc5c86f202d5164fd6d",
     "url": "/portfolio/index.html"
   }
 ];
