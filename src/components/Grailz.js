@@ -36,11 +36,16 @@ class Grailz extends Component {
                 <Container fluid className="outerContainer">
                     <Container className='projectDetails'>
                         <h2>Purpose</h2>
-                        <p>As a final project for an iOS Development class I took, I created a sneaker release app with 3 other people. We built the app using Swift and pulled live data from an open API (no longer open). For this project, I was responsible for the sneaker release list screen and the sneaker details screen. One of our stretch goals, that was not completed due to time restrictions was the functionality to allow users to vote on specific shoes. In the shoe details page, there is </p>
+                        <p>As a final project for an iOS Development class I took, I created a sneaker release app with 3 other people. We built the app using Swift and pulled live data from an open API (no longer open). </p>
                         <h2>My Role</h2>
-                        <p>For this project, I was responsible for the sneaker release list screen and the sneaker details screen. One of our stretch goals, that was not completed due to time restrictions was the functionality to allow users to vote on a specific shoes. In the shoe details page, there are two buttons. One with a fire icon and one with trash icon. The intention behind this functionality was to allow users to vote and see which shoes would be popular. </p>
+                        <p>For this project, I was responsible for the sneaker release list screen and the sneaker details screen. One of our stretch goals, that was not completed due to time restrictions, was the functionality to allow users to vote on specific shoes. In the shoe details page, there are two buttons. One with a fire icon and one with trash icon. The intention behind this functionality was to allow users to vote and see which shoes would be popular. </p>
                         <h2>What I Learned</h2>
                         <p>Throughout this project, I not only learned a lot about mobile development, but I also learned about team development. Before this project, I had worked on most of my coding projects by myself. Furthermore, I learned how to interact with git in a team, and do pull requests and merges.</p>
+                        <h2>Screenshots of final project and output after user input</h2>
+                        <p>Coming Soon</p>
+                        <a href='https://github.com/skarahx/grailz'>
+                        <Button>View Code</Button>
+                        </a>
                     </Container>
                     <Footer />
                 </Container>

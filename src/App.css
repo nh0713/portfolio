@@ -322,10 +322,10 @@ html, body {
 }
 
 .fadeInOne h1, .fadeInTwo h1, .fadeInThree h1 {
-  animation: fadeInOut 4s;
-  -moz-animation: fadeInOut 4s; /* Firefox */
-  -webkit-animation: fadeInOut 4s; /* Safari and Chrome */
-  -o-animation: fadeInOut 4s; /* Opera */
+  animation: fadeInOut 2s;
+  -moz-animation: fadeInOut 2s; /* Firefox */
+  -webkit-animation: fadeInOut 2s; /* Safari and Chrome */
+  -o-animation: fadeInOut 2s; /* Opera */
   opacity: 0;
   animation-timing-function: ease-out;
   -webkit-animation-timing-function: ease-out;
@@ -334,23 +334,22 @@ html, body {
 }
 
 .fadeInTwo h1 {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .fadeInThree h1 {
-  animation-delay: 8s;
+  animation-delay: 4s;
 }
 
 .fadeInFour {
-  animation: fadeIn 16s;
   margin: 0 auto;
-  -moz-animation: 16s ease 0s normal forwards 1 fadeIn;
-  -webkit-animation: 16s ease 0s normal forwards 1 fadeIn;
-  animation: 16s ease 0s normal forwards 1 fadeIn;
+  animation: fadeIn 9s;
+  -moz-animation: 9s ease 0s normal forwards 1 fadeIn;
+  -webkit-animation: 9s ease 0s normal forwards 1 fadeIn;
+  animation: 9s ease 0s normal forwards 1 fadeIn;
 }
 
 .fadeInFour {
-  /* width: 50%; */
   margin-top: 6.3vh;
   padding-top: 5vh;
   position: absolute;

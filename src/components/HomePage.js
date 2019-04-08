@@ -72,7 +72,7 @@ class HomePage extends Component {
                         <Col lg={6}>
                         <div className='details'>
                             <h4>Textbook Friends</h4>
-                            <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap</h5>
+                            <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap | Git</h5>
                             <p>Website that allows college students to buy and sell textbooks locally.</p>
                             <Link to='/TextbookFriends'>
                                 <Button>Read More</Button>
@@ -90,7 +90,7 @@ class HomePage extends Component {
                         <Col lg={6}>
                         <div className='details'>
                             <h4>Grailz</h4>
-                            <h5>Swift | REST/JSON</h5>
+                            <h5>Swift | REST/JSON | Teamwork | Git</h5>
                             <p>App that displays upcoming sneaker release dates and details.</p>
                             <Link to='/Grailz'>
                                 <Button>Read More</Button>
@@ -122,7 +122,7 @@ class HomePage extends Component {
                         <Col lg={6}>
                             <div className='details'>
                                 <h4>AT&T Friends</h4>
-                                <h5>Invision | Adobe Illustrator | Product Management | Teamwork</h5>
+                                <h5>Invision | Adobe Illustrator | Product Management | UX Design | Teamwork</h5>
                                 <p>AT&T Friends is a Prototype app designed to assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
                                 {/* <Link to='/AttFriends'> */}
                                     <Button className='comingSoon'>Coming Soon</Button>

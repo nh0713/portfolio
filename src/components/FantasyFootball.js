@@ -41,8 +41,8 @@ class FantasyFootball extends Component {
                         <h2>What I learned</h2>
                         <p>Although the web app is no longer functioning, I still learned a lot through creating this project. Firstly, I learned how to make API calls, and then how to parse the data. Secondly, I learned how to output and filter data based off of user input. Although the final project is not the most visually appealing, I learned valuable skills that I was able to incorporte into subsequent projects like Grailz, the sneaker release app.</p>
                         <h2>Screenshots of final project and output after user input</h2>
+                        <ImgCarousel />
                     </Container>
-                    <ImgCarousel />
                     <Footer />
                 </Container>
             </div>
