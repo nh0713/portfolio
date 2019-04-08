@@ -42,6 +42,7 @@ class Grailz extends Component {
                         <h2>What I Learned</h2>
                         <p>Throughout this project, I not only learned a lot about mobile development, but I also learned about team development. Before this project, I had worked on most of my coding projects by myself. Furthermore, I learned how to interact with git in a team, and do pull requests and merges.</p>
                     </Container>
+                    <Footer />
                 </Container>
             </div>
         );
