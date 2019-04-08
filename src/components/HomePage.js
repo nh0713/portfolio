@@ -92,9 +92,9 @@ class HomePage extends Component {
                             <h4>Grailz</h4>
                             <h5>Swift | REST/JSON</h5>
                             <p>App that displays upcoming sneaker release dates and details.</p>
-                            {/* <Link to='/Grailz'> */}
-                                <Button className='comingSoon'>Coming Soon</Button>
-                            {/* </Link> */}
+                            <Link to='/Grailz'>
+                                <Button>Read More</Button>
+                            </Link>
                         </div>
                         </Col>
                     </Row>
