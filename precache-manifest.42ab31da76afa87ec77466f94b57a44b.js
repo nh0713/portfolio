@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/basketball.5140ca0b.jpg"
   },
   {
-    "revision": "d8aebdcdc5877fa2e6ed",
+    "revision": "31551dc58d0c0d04223f",
     "url": "/portfolio/static/css/main.4d89bdeb.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
   },
   {
-    "revision": "d8aebdcdc5877fa2e6ed",
-    "url": "/portfolio/static/js/main.55651431.chunk.js"
+    "revision": "31551dc58d0c0d04223f",
+    "url": "/portfolio/static/js/main.f95430a0.chunk.js"
   },
   {
     "revision": "478b2da5ac73a24c3e820b8c3eaf1728",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.5fb120b4.png"
   },
   {
-    "revision": "1816e0ab685f095c29d8fdef1a36e797",
+    "revision": "665badce761b9631e97a390b9841adf0",
     "url": "/portfolio/index.html"
   }
 ];
