@@ -124,9 +124,9 @@ class HomePage extends Component {
                                 <h4>AT&T Friends</h4>
                                 <h5>Invision | Adobe Illustrator | Product Management | UX Design | Teamwork</h5>
                                 <p>AT&T Friends is a Prototype app designed to assist recent college grads in buying telecommunication and entertainment services for the first time.</p>
-                                {/* <Link to='/AttFriends'> */}
-                                    <Button className='comingSoon'>Coming Soon</Button>
-                                {/* </Link> */}
+                                <Link to='/AttFriends'>
+                                    <Button>Read More</Button>
+                                </Link>
                             </div>
                         </Col>
                     </Row>

@@ -8,6 +8,10 @@ import { Link } from 'react-router-dom'
 import Footer from './Footer.js'
 
 class AttFriends extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+    
     render() {
         return (
             <div>
@@ -32,8 +36,15 @@ class AttFriends extends Component {
                 <Container fluid className="outerContainer">
                     <Container className='projectDetails'>
                         <h2>Background</h2>
-                        <p>Content</p>
+                        <p>Coming Soon</p>
                         <h2>Purpose</h2>
+                        <p>Coming Soon</p>
+                        <h2>What I Learned</h2>
+                        <p>Coming Soon</p>
+                        <h2>Try AT&T Friends</h2>
+                        <div className='iframeContainer'>
+                            <iframe width="438" height="930" src="//invis.io/D4MZBWNG6CV" frameborder="0" allowfullscreen></iframe>
+                        </div>
                     </Container>
                 </Container>
             </div>
