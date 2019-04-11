@@ -130,7 +130,9 @@ class HomePage extends Component {
                                 </Link>
                             </div>
                         </Col>
-                        {/* <Col lg={6}>
+                    </Row>
+                    <Row>
+                        <Col lg={6}>
                             <img src={shredderz} alt="Shredderz"></img>
                         </Col>
                         <Col lg={6}>
@@ -140,7 +142,7 @@ class HomePage extends Component {
                                 <p>Prototype app designed to assist snowboarders improve their skills and share their progress.</p>
                                 <Button href='https://shredderz.wixsite.com/hcdeshredderz'>Read More</Button>
                             </div>
-                        </Col> */}
+                        </Col>
                     </Row>
                     <Row>
                         <Col lg={6}>
