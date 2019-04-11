@@ -6,6 +6,7 @@ import grailz from '../images/grailz.png';
 import attFriends from '../images/attFriends.png';
 import shredderz from '../images/shredderz.png';
 import HomeFantasyFootball from '../images/HomeFantasyFootball.PNG'
+import r8 from '../images/r8Designmin.png';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -129,9 +130,7 @@ class HomePage extends Component {
                                 </Link>
                             </div>
                         </Col>
-                    </Row>
-                    <Row>
-                        <Col lg={6}>
+                        {/* <Col lg={6}>
                             <img src={shredderz} alt="Shredderz"></img>
                         </Col>
                         <Col lg={6}>
@@ -141,6 +140,21 @@ class HomePage extends Component {
                                 <p>Prototype app designed to assist snowboarders improve their skills and share their progress.</p>
                                 <Button href='https://shredderz.wixsite.com/hcdeshredderz'>Read More</Button>
                             </div>
+                        </Col> */}
+                    </Row>
+                    <Row>
+                        <Col lg={6}>
+                            <img src={r8} alt="Design Practice" className='textbookFriendsImage'></img>
+                        </Col>
+                        <Col lg={6}>
+                        <div className='details'>
+                            <h4>Design Practice</h4>
+                            <h5>Adobe Illustrator | UI Design</h5>
+                            <p>I have always struggled with design and UI design. As a challenge, I will be designing different interfaces and sharing them here.</p>
+                            {/* <Link to='/AttFriends'> */}
+                                <Button>Read More</Button>
+                            {/* </Link> */}
+                        </div>
                         </Col>
                     </Row>
                 </Container>
