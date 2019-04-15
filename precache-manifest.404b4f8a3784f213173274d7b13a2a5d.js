@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/basketball.5140ca0b.jpg"
   },
   {
-    "revision": "6e276af9e44a825771d5",
+    "revision": "f5e63b149adca2631d7c",
     "url": "/portfolio/static/css/main.6f101f06.chunk.css"
   },
   {
@@ -12,12 +12,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "d990b9e0491a5181c890",
-    "url": "/portfolio/static/js/2.49996af3.chunk.js"
+    "revision": "417023d914b66ca29c00",
+    "url": "/portfolio/static/js/2.61fd8b16.chunk.js"
   },
   {
     "revision": "be8e489ef8b3933085afa95b53bd0508",
     "url": "/portfolio/static/media/seattle-min-resized.be8e489e.png"
+  },
+  {
+    "revision": "0bf383849a9a4cd44e657651dc82ba55",
+    "url": "/portfolio/static/media/r8Designmin.0bf38384.png"
   },
   {
     "revision": "483500e187e3d6aca19178fc332d001b",
@@ -40,12 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/HomeFantasyFootball.7fcb30ee.PNG"
   },
   {
-    "revision": "0bf383849a9a4cd44e657651dc82ba55",
-    "url": "/portfolio/static/media/r8Designmin.0bf38384.png"
-  },
-  {
-    "revision": "6e276af9e44a825771d5",
-    "url": "/portfolio/static/js/main.681fc2b3.chunk.js"
+    "revision": "f5e63b149adca2631d7c",
+    "url": "/portfolio/static/js/main.2ba372c2.chunk.js"
   },
   {
     "revision": "478b2da5ac73a24c3e820b8c3eaf1728",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.5fb120b4.png"
   },
   {
-    "revision": "d4f9e0685c2376fbb712bf461037bb10",
+    "revision": "f56d4b59bd6c6d75edae5ab2637cee1e",
     "url": "/portfolio/index.html"
   }
 ];
