@@ -9,11 +9,14 @@ import TextbookFriends from './components/TextbookFriends';
 import Grailz from './components/Grailz';
 import AttFriends from './components/AttFriends';
 import FantasyFootball from './components/FantasyFootball';
+import DesignPractice from './components/DesignPractice';
+
 
 class App extends Component {
   componentDidMount() {
     // Decode entities in the URL
     // Sometimes a URL like #/foo#bar will be encoded as #/foo%23bar
+    // https://github.com/ReactTraining/react-router/issues/394
     window.location.hash = window.decodeURIComponent(window.location.hash);
     const scrollToAnchor = () => {
       const hashParts = window.location.hash.split('#');
@@ -36,6 +39,7 @@ class App extends Component {
           <Route path='/Grailz' component={Grailz} exact />
           <Route path='/AttFriends' component={AttFriends} exact />
           <Route path='/FantasyFootball' component={FantasyFootball} exact />
+          <Route path='/DesignPractice' component={DesignPractice} exact />
         </Switch>
       </Router>
     );

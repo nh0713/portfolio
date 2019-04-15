@@ -153,8 +153,8 @@ class HomePage extends Component {
                             <h4>Design Practice</h4>
                             <h5>Adobe Illustrator | UI Design</h5>
                             <p>I have always struggled with design and UI design. As a challenge, I will be designing different interfaces and sharing them here.</p>
-                            {/* <Link to='/AttFriends'> */}
-                                <Button>Read More</Button>
+                            {/* <Link to='/DesignPractice'> */}
+                                <Button className='comingSoon'>Coming Soon</Button>
                             {/* </Link> */}
                         </div>
                         </Col>
