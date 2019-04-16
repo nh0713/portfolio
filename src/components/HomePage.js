@@ -114,7 +114,7 @@ class HomePage extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row>
+                    {/* <Row>
                         <Col lg={6}>
                             <a href='https://invis.io/3UMZBWMMR8D'>
                                 <img src={attFriends} alt="AT&T Friends"></img>
@@ -130,7 +130,7 @@ class HomePage extends Component {
                                 </Link>
                             </div>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <Row>
                         <Col lg={6}>
                             <img src={shredderz} alt="Shredderz"></img>
