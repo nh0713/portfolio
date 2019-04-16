@@ -54,7 +54,7 @@ class HomePage extends Component {
                                 transitionAppearTimeout={2000}
                                 transitionEnterTimeout={500}
                                 transitionLeaveTimeout={300}>
-                                    <h2>UX Designer | Developer | Product Manager</h2> 
+                                    <h2>Developer | UX Designer | Product Manager</h2> 
                                 </ReactCSSTransitionGroup>
                             </Col>
                         </Row>
