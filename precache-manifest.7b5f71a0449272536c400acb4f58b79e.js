@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/stickShift.478b2da5.jpg"
   },
   {
-    "revision": "7284c75754b85fd7d0de",
+    "revision": "fa063e0961c8c40a34ab",
     "url": "/portfolio/static/css/main.6f101f06.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/basketball.5140ca0b.jpg"
   },
   {
-    "revision": "7284c75754b85fd7d0de",
-    "url": "/portfolio/static/js/main.2ce2b653.chunk.js"
+    "revision": "fa063e0961c8c40a34ab",
+    "url": "/portfolio/static/js/main.329d214a.chunk.js"
   },
   {
     "revision": "05d1b8a96537edc4fab54f8bcf4a1a5d",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/resume.5fb120b4.png"
   },
   {
-    "revision": "a7a6ac331815c9c41e45f72373659c5c",
+    "revision": "a2aa0d7b0fd81d918d0bd84ac8248a5b",
     "url": "/portfolio/index.html"
   }
 ];
