@@ -13,14 +13,22 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import ScrollAnimation from 'react-animate-on-scroll';
 import { Link } from 'react-router-dom'
 
 import Footer from './Footer.js'
 
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class HomePage extends Component {
+    componentDidMount(){
+        AOS.init({
+          duration : 2000
+        })
+    }
+
     render() {
         return(
             <div>
@@ -63,14 +71,13 @@ class HomePage extends Component {
                 <Container fluid id='work' className='recentProjects'>
                     {/* <h2>Current Project: Building and improving my portfolio!</h2> */}
                     <h2>Recent Projects</h2>
-                    {/* <ScrollAnimation animateIn="fadeIn"> */}
                     <Row>
-                        <Col lg={6} className='textbookFriendsImage'>
+                        <Col lg={6} className='textbookFriendsImage' data-aos="fade-up">
                         <a href="https://nh0713.github.io/hcde498-firstpage/">
                             <img src={textbookFriends} alt="Textbook Friends"></img>
                         </a>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left">
                         <div className='details'>
                             <h4>Textbook Friends</h4>
                             <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap | Git</h5>
@@ -81,14 +88,13 @@ class HomePage extends Component {
                         </div>
                         </Col>
                     </Row>
-                    {/* </ScrollAnimation> */}
                     <Row>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-up">
                             <a href='https://github.com/skarahx/grailz'>
                                 <img src={grailz} alt="Grailz"></img>
                             </a>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left">
                         <div className='details'>
                             <h4>Grailz</h4>
                             <h5>Swift | REST/JSON | Teamwork | Git</h5>
@@ -100,10 +106,10 @@ class HomePage extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-up">
                             <img src={HomeFantasyFootball} alt="Fantasy Football Player Comparison Tool Home Screenshot" className='textbookFriendsImage'></img>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left">
                             <div className='details'>
                                 <h4>Fantasy Football Player Comparison Tool</h4>
                                 <h5>Python | HTML | CSS | REST/JSON</h5>
@@ -114,13 +120,13 @@ class HomePage extends Component {
                             </div>
                         </Col>
                     </Row>
-                    {/* <Row>
-                        <Col lg={6}>
+                    {/* <Row">
+                        <Col lg={6} data-aos="fade-up" data-aos-offset="600">
                             <a href='https://invis.io/3UMZBWMMR8D'>
                                 <img src={attFriends} alt="AT&T Friends"></img>
                             </a>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left" data-aos-offset="600">
                             <div className='details'>
                                 <h4>AT&T Friends</h4>
                                 <h5>Invision | Adobe Illustrator | Product Management | UX Design | Teamwork</h5>
@@ -132,10 +138,10 @@ class HomePage extends Component {
                         </Col>
                     </Row> */}
                     <Row>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-up">
                             <img src={shredderz} alt="Shredderz"></img>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left">
                             <div className='details'>
                                 <h4>Shredderz</h4>
                                 <h5>User Research | UX Design | Teamwork</h5>
@@ -144,11 +150,11 @@ class HomePage extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row>
+                    <Row data-aos="fade-up">
                         <Col lg={6}>
                             <img src={r8} alt="Design Practice" className='textbookFriendsImage'></img>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left">
                         <div className='details'>
                             <h4>Design Practice</h4>
                             <h5>Adobe Illustrator | UI Design</h5>
@@ -164,7 +170,7 @@ class HomePage extends Component {
                     <h2>
                         Contact Me
                     </h2>
-                    <Row>
+                    <Row data-aos="fade-up">
                         <Col>
                             <a href='https://www.linkedin.com/in/nathan-han/'>
                                 <i className="fab fa-linkedin fa-5x"></i>

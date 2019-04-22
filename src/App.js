@@ -11,7 +11,6 @@ import AttFriends from './components/AttFriends';
 import FantasyFootball from './components/FantasyFootball';
 import DesignPractice from './components/DesignPractice';
 
-
 class App extends Component {
   componentDidMount() {
     // Decode entities in the URL
