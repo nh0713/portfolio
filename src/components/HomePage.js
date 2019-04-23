@@ -25,8 +25,9 @@ import 'aos/dist/aos.css';
 class HomePage extends Component {
     componentDidMount(){
         AOS.init({
-          duration : 2000
-        })
+            duration : 2000
+        });
+        window.addEventListener('load', AOS.refresh);
     }
 
     render() {
