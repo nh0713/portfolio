@@ -7,11 +7,11 @@ import Footer from './Footer.js'
 
 import { Link } from 'react-router-dom'
 
-import sports from '../images/basketball.jpg';
-import stickShift from '../images/stickShift.jpg';
-import videoGames from '../images/videoGames.jpg';
-import code from '../images/code.jpg';
-import resume from '../images/resume.png';
+import sports from '../assets/basketball.jpg';
+import stickShift from '../assets/stickShift.jpg';
+import videoGames from '../assets/videoGames.jpg';
+import code from '../assets/code.jpg';
+import resume from '../assets/resume.png';
 
 
 
@@ -33,7 +33,7 @@ class About extends Component {
 
         return (
             <div>
-                <header className="header">
+                <nav className="header">
                     {/* <a href="" class="logo">Logo</a> */}
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
@@ -51,7 +51,7 @@ class About extends Component {
                             <li>Contact</li>
                         </Link>
                     </ul>
-                </header>
+                </nav>
                 <div className='outerDiv'>
                     <Container fluid className='aboutMeAnimation'>
                         <div className='fadeInOne'>

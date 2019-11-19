@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import filledOut from '../images/FantasyFootballFilledOut.PNG'
-import results1 from '../images/results1.png'
-import results2 from '../images/FantasyFootballResults2.png'
+import filledOut from '../assets/FantasyFootballFilledOut.PNG'
+import results1 from '../assets/results1.png'
+import results2 from '../assets/FantasyFootballResults2.png'
 
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';

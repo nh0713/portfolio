@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import { Container, Row, Col, Button } from "react-bootstrap";
-
-import { Link } from 'react-router-dom'
-
-import r8 from '../assets/r8Designmin.png';
+import { Container } from "react-bootstrap";
 
 import Footer from './Footer.js'
 
-class Grailz extends Component {
+import { Link } from 'react-router-dom'
+
+import ProcessBook from '../assets/ProcessBook.pdf'
+
+
+
+class AmazonCAT extends Component {
+    constructor(props) {
+        super(props);
+      }
+
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -18,6 +24,7 @@ class Grailz extends Component {
         return (
             <div>
                 <nav className="header">
+                    {/* <a href="" class="logo">Logo</a> */}
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
@@ -36,20 +43,14 @@ class Grailz extends Component {
                     </ul>
                 </nav>
                 <Container fluid className="outerContainer">
-                    {/* <Container className="projectDetails">
-                        <h2>Purpose</h2>
-                        <p>Text</p>
-                    </Container> */}
-                    <Container className='hobbiesContainer'> 
-                    <div className='imgContainer'>
-                        <img src={r8} alt='R8'></img>
-                    </div>
+                    <Container className="projectDetails">
+                        <object className="pdf" data={ProcessBook} type="application/pdf">   </object>
                     </Container>
                 </Container>
+                {/* <Footer /> */}
             </div>
         );
     }
-
 }
 
-export default Grailz
+export default AmazonCAT;

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import textbookFriends from '../images/textbookFriends.PNG';
-import grailz from '../images/grailz.png';
-import attFriends from '../images/attFriends.png';
-import shredderz from '../images/shredderz.png';
-import HomeFantasyFootball from '../images/HomeFantasyFootball.PNG'
-import r8 from '../images/r8Designmin.png';
+import textbookFriends from '../assets/textbookFriends.PNG';
+import grailz from '../assets/grailz.png';
+import attFriends from '../assets/attFriends.png';
+import shredderz from '../assets/shredderz.png';
+import HomeFantasyFootball from '../assets/HomeFantasyFootball.PNG'
+import r8 from '../assets/r8Designmin.png';
+import catScreenshot from '../assets/catScreenshot.PNG'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -33,7 +34,7 @@ class HomePage extends Component {
     render() {
         return(
             <div>
-                <header className="header">
+                <nav className="header">
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
@@ -44,7 +45,7 @@ class HomePage extends Component {
                         <li><AnchorLink offset={() => 70} href="#work">Work</AnchorLink></li>
                         <li><AnchorLink offset={() => 70} href="#contact">Contact</AnchorLink></li>
                     </ul>
-                </header>
+                </nav>
                 <Container fluid id='home' className='imgBanner'> 
                     <Container className="rowContainer">
                         <Row>
@@ -70,7 +71,6 @@ class HomePage extends Component {
                     </Container>
                 </Container>
                 <Container fluid id='work' className='recentProjects'>
-                    {/* <h2>Current Project: Building and improving my portfolio!</h2> */}
                     <h2>Recent Projects</h2>
                     <Row>
                         <Col lg={6} className='textbookFriendsImage' data-aos="fade-up">
@@ -84,6 +84,23 @@ class HomePage extends Component {
                             <h5>React | Firebase | HTML | CSS | Javascript | Bootstrap | Git</h5>
                             <p>Website that allows college students to buy and sell textbooks locally.</p>
                             <Link to='/TextbookFriends'>
+                                <Button>Read More</Button>
+                            </Link>
+                        </div>
+                        </Col>
+                    </Row>
+                    <Row style={{marginTop: "4%"}}>
+                        <Col lg={6} className='textbookFriendsImage' data-aos="fade-up">
+                        <div>
+                            <img src={catScreenshot} alt="Textbook Friends"></img>
+                        </div>
+                        </Col>
+                        <Col lg={6} data-aos="fade-up">
+                        <div className='details'>
+                            <h4>Amazon Competency Assessment Tool (CAT)</h4>
+                            <h5>Figma | UX/UI Design | User Research | Prototyping</h5>
+                            <p>Tool that allows Amazon Loss Prevention employees to track their promotion status.</p>
+                            <Link to='/AmazonCAT'>
                                 <Button>Read More</Button>
                             </Link>
                         </div>
@@ -160,9 +177,9 @@ class HomePage extends Component {
                             <h4>Design Practice</h4>
                             <h5>Adobe Illustrator | UI Design</h5>
                             <p>I have always struggled with design and UI design. As a challenge, I will be designing different interfaces and sharing them here.</p>
-                            {/* <Link to='/DesignPractice'> */}
-                                <Button className='comingSoon'>Coming Soon</Button>
-                            {/* </Link> */}
+                            <Link to='/DesignPractice'>
+                                <Button>Read More</Button>
+                            </Link>
                         </div>
                         </Col>
                     </Row>

@@ -10,6 +10,7 @@ import Grailz from './components/Grailz';
 import AttFriends from './components/AttFriends';
 import FantasyFootball from './components/FantasyFootball';
 import DesignPractice from './components/DesignPractice';
+import AmazonCAT from './components/AmazonCAT';
 
 class App extends Component {
   componentDidMount() {
@@ -39,6 +40,7 @@ class App extends Component {
           <Route path='/AttFriends' component={AttFriends} exact />
           <Route path='/FantasyFootball' component={FantasyFootball} exact />
           <Route path='/DesignPractice' component={DesignPractice} exact />
+          <Route path='/AmazonCAT' component={AmazonCAT} exact />
         </Switch>
       </Router>
     );

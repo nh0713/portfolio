@@ -15,7 +15,7 @@ class Grailz extends Component {
     render() {
         return (
             <div>
-                <header className="header">
+                <nav className="header">
                     <input className="menu-btn" type="checkbox" id="menu-btn" />
                     <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <ul className="menu">
@@ -32,7 +32,7 @@ class Grailz extends Component {
                             <li>Contact</li>
                         </Link>
                     </ul>
-                </header>
+                </nav>
                 <Container fluid className="outerContainer">
                     <Container className='projectDetails'>
                         <h2>Purpose</h2>

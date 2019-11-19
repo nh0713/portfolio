@@ -12,7 +12,7 @@ html, body {
 }
 
 .imgBanner {
-  background-image: url('./images/seattle-min-resized.png');
+  background-image: url('./assets/seattle-min-resized.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@ html, body {
   margin: auto;
   left: 0;
   right: 0;
-  margin-top: 6.3vh;
+  margin-top: 8.4vh;
 }
 
 .projectDetails {
@@ -409,6 +409,11 @@ html, body {
 
 .iframeContainer {
   text-align: center;
+}
+
+.pdf {
+  width: 100%;
+  height: 90vh;
 }
 
 

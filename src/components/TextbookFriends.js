@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import wireframes from '../images/wireframes.png';
-import affinityDiagram from '../images/affinity.jpg';
+import wireframes from '../assets/wireframes.png';
+import affinityDiagram from '../assets/affinity.jpg';
 import { Container, Row, Col, Button, Tabs, Tab } from "react-bootstrap";
 
 import { Link } from 'react-router-dom'
